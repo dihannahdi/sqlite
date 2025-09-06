@@ -1,0 +1,72 @@
+-- Table: t618
+-- Chunk: 1
+-- Rows: 65
+
+CREATE TABLE "t618" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t618
+INSERT INTO [t618] VALUES (1,'بسم الله الرحمن الرحيم','1','0','0');
+INSERT INTO [t618] VALUES (2,'ورد بن سعد العمي','1','0','0');
+INSERT INTO [t618] VALUES (3,'أبو المشيع','1','0','0');
+INSERT INTO [t618] VALUES (4,'جبر بن خالد بن عقبة بن سلمة الأسلمي.','1','3','0');
+INSERT INTO [t618] VALUES (5,'القصافي','2','0','0');
+INSERT INTO [t618] VALUES (6,'واسمه عمرو بن نصر التميمي، وكنيته أبو الفيض، بصري. قال دعبل: قال','2','5','0');
+INSERT INTO [t618] VALUES (7,'البطين بن أمية البجلي','2','0','0');
+INSERT INTO [t618] VALUES (8,'محمد بن عبد الملك','3','0','0');
+INSERT INTO [t618] VALUES (9,'الفقعسي الأسدي.','3','8','0');
+INSERT INTO [t618] VALUES (10,'عبد الله بن المبارك','3','0','0');
+INSERT INTO [t618] VALUES (11,'هارون الرشيد','4','0','0');
+INSERT INTO [t618] VALUES (12,'إبراهيم بن المهدي','5','0','0');
+INSERT INTO [t618] VALUES (13,'أبو الهيذام','5','0','0');
+INSERT INTO [t618] VALUES (14,'الكسائي','6','0','0');
+INSERT INTO [t618] VALUES (15,'يحيى بن المبارك اليزيدي','7','0','0');
+INSERT INTO [t618] VALUES (16,'الأصمعي','7','0','0');
+INSERT INTO [t618] VALUES (17,'رزين بن زندورد العروضي','8','0','0');
+INSERT INTO [t618] VALUES (18,'الفضل بن العباس','9','0','0');
+INSERT INTO [t618] VALUES (19,'زرزر الرفاء','9','0','0');
+INSERT INTO [t618] VALUES (20,'عنان','10','0','0');
+INSERT INTO [t618] VALUES (21,'عبد الجبار بن سعيد','10','0','0');
+INSERT INTO [t618] VALUES (22,'أبو الجنوب وأبو السمط','11','0','0');
+INSERT INTO [t618] VALUES (23,'محمد بن أمية بن أبي أمية','11','0','0');
+INSERT INTO [t618] VALUES (24,'علي وعبد الله وأحمد','12','0','0');
+INSERT INTO [t618] VALUES (25,'الصمري','13','0','0');
+INSERT INTO [t618] VALUES (26,'أبو فرعون الساسي','13','0','0');
+INSERT INTO [t618] VALUES (27,'الخاركي','13','0','0');
+INSERT INTO [t618] VALUES (28,'واسمه عمرو','13','27','0');
+INSERT INTO [t618] VALUES (29,'أحمد بن إسحاق الخاركي','14','0','0');
+INSERT INTO [t618] VALUES (30,'أبو الخطاب البهدلي التميمي','15','0','0');
+INSERT INTO [t618] VALUES (31,'أبو دهمان','15','0','0');
+INSERT INTO [t618] VALUES (32,'أبو البيداء الرياحي','16','0','0');
+INSERT INTO [t618] VALUES (33,'عاصم بن محمد المديني','16','0','0');
+INSERT INTO [t618] VALUES (34,'خارجة بن فليح المللي','17','0','0');
+INSERT INTO [t618] VALUES (35,'يونس بن عبد الله','17','0','0');
+INSERT INTO [t618] VALUES (36,'بن سالم الخياط المدني شاعر مليح الشعر جيده:','17','35','0');
+INSERT INTO [t618] VALUES (37,'عمرو بن مسلم الرياحي السلمي','18','0','0');
+INSERT INTO [t618] VALUES (38,'حبيب بن شوذب','18','0','0');
+INSERT INTO [t618] VALUES (39,'ميمون الحضري','19','0','0');
+INSERT INTO [t618] VALUES (40,'المستهل بن الكميت','19','0','0');
+INSERT INTO [t618] VALUES (41,'إسماعيل بن جرير','20','0','0');
+INSERT INTO [t618] VALUES (42,'محمد بن عبد الله بن كناسة','20','0','0');
+INSERT INTO [t618] VALUES (43,'الأسدي','20','42','0');
+INSERT INTO [t618] VALUES (44,'عبد القدوس وعبد الخالق','21','0','0');
+INSERT INTO [t618] VALUES (45,'عتاب بن عبد الله بن عنبسة','21','0','0');
+INSERT INTO [t618] VALUES (46,'عمرو بن حوى السكسكي','22','0','0');
+INSERT INTO [t618] VALUES (47,'طالب وطالوت','23','0','0');
+INSERT INTO [t618] VALUES (48,'أبو الضلع السندي','23','0','0');
+INSERT INTO [t618] VALUES (49,'المخيم الراسبي','23','0','0');
+INSERT INTO [t618] VALUES (50,'بريه المصري','24','0','0');
+INSERT INTO [t618] VALUES (51,'معبد بن طوق العنبري','24','0','0');
+INSERT INTO [t618] VALUES (52,'عباد المخرق','25','0','0');
+INSERT INTO [t618] VALUES (53,'أبو عباد النميري','25','0','0');
+INSERT INTO [t618] VALUES (54,'إسماعيل القراطيسي','26','0','0');
+INSERT INTO [t618] VALUES (55,'الخريمي','26','0','0');
+INSERT INTO [t618] VALUES (56,'العكوك','27','0','0');
+INSERT INTO [t618] VALUES (57,'محمد بن حازم الباهلي','28','0','0');
+INSERT INTO [t618] VALUES (58,'محمد بن يسير الحميري','28','0','0');
+INSERT INTO [t618] VALUES (59,'محمد بن معروف','28','0','0');
+INSERT INTO [t618] VALUES (60,'أبو المخفف','29','0','0');
+INSERT INTO [t618] VALUES (61,'الحماحمي','30','0','0');
+INSERT INTO [t618] VALUES (62,'محمد بن مخلد بن قيراط','30','0','0');
+INSERT INTO [t618] VALUES (63,'الفضل بن هاشم','30','0','0');
+INSERT INTO [t618] VALUES (64,'أبو الجهم أحمد بن سيف','31','0','0');
+INSERT INTO [t618] VALUES (65,'عمرو بن أحمد بن بديل','32','0','0');
