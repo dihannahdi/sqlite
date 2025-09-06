@@ -1,0 +1,72 @@
+-- Table: t7037
+-- Chunk: 1
+-- Rows: 65
+
+CREATE TABLE "t7037" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t7037
+INSERT INTO [t7037] VALUES (1,'فصل الألف','5','0','0');
+INSERT INTO [t7037] VALUES (2,'الألف اللينة والألف المتحركة','8','0','0');
+INSERT INTO [t7037] VALUES (3,'فصل الألف والباء','11','0','0');
+INSERT INTO [t7037] VALUES (4,'نوع في بيان لغات ألفاظ النظم الجليل','20','0','0');
+INSERT INTO [t7037] VALUES (5,'فصل الألف والتاء','20','0','0');
+INSERT INTO [t7037] VALUES (6,'فصل الألف والثاء','25','0','0');
+INSERT INTO [t7037] VALUES (7,'فصل الألف والجيم','28','0','0');
+INSERT INTO [t7037] VALUES (8,'فصل الألف والحاء','38','0','0');
+INSERT INTO [t7037] VALUES (9,'فصل الألف والخاء','45','0','0');
+INSERT INTO [t7037] VALUES (10,'فصل الألف والدال','51','0','0');
+INSERT INTO [t7037] VALUES (11,'فصل الألف والذال','55','0','0');
+INSERT INTO [t7037] VALUES (12,'فصل الألف والراء','59','0','0');
+INSERT INTO [t7037] VALUES (13,'فصل الألف والزاي','66','0','0');
+INSERT INTO [t7037] VALUES (14,'فصل الألف والسين','68','0','0');
+INSERT INTO [t7037] VALUES (15,'فصل الألف والشين','103','0','0');
+INSERT INTO [t7037] VALUES (16,'فصل الألف والصاد','108','0','0');
+INSERT INTO [t7037] VALUES (17,'فصل الألف والضاد','118','0','0');
+INSERT INTO [t7037] VALUES (18,'فصل الألف والطاء','123','0','0');
+INSERT INTO [t7037] VALUES (19,'فصل الألف والظاء','128','0','0');
+INSERT INTO [t7037] VALUES (20,'فصل الألف والعين','129','0','0');
+INSERT INTO [t7037] VALUES (21,'فصل الألف والغين','138','0','0');
+INSERT INTO [t7037] VALUES (22,'فصل الألف والفاء','139','0','0');
+INSERT INTO [t7037] VALUES (23,'فصل الألف والقاف','141','0','0');
+INSERT INTO [t7037] VALUES (24,'فصل الألف والكاف','147','0','0');
+INSERT INTO [t7037] VALUES (25,'فصل الألف واللام','149','0','0');
+INSERT INTO [t7037] VALUES (26,'فصل الألف والميم','161','0','0');
+INSERT INTO [t7037] VALUES (27,'فصل الألف والنون','175','0','0');
+INSERT INTO [t7037] VALUES (28,'فصل الألف والواو','189','0','0');
+INSERT INTO [t7037] VALUES (29,'فصل الألف والهاء','196','0','0');
+INSERT INTO [t7037] VALUES (30,'فصل الألف والياء','198','0','0');
+INSERT INTO [t7037] VALUES (31,'فصل الباء','211','0','0');
+INSERT INTO [t7037] VALUES (32,'فصل التاء','239','0','0');
+INSERT INTO [t7037] VALUES (33,'فصل الثاء','309','0','0');
+INSERT INTO [t7037] VALUES (34,'فصل الجيم','316','0','0');
+INSERT INTO [t7037] VALUES (35,'فصل الحاء','345','0','0');
+INSERT INTO [t7037] VALUES (36,'فصل الخاء','399','0','0');
+INSERT INTO [t7037] VALUES (37,'فصل الدال','424','0','0');
+INSERT INTO [t7037] VALUES (38,'فصل الذال','439','0','0');
+INSERT INTO [t7037] VALUES (39,'فصل الراء','450','0','0');
+INSERT INTO [t7037] VALUES (40,'فصل الزاي','471','0','0');
+INSERT INTO [t7037] VALUES (41,'فصل السين','479','0','0');
+INSERT INTO [t7037] VALUES (42,'فصل الشين','509','0','0');
+INSERT INTO [t7037] VALUES (43,'فصل الصاد','529','0','0');
+INSERT INTO [t7037] VALUES (44,'فصل الضاد','553','0','0');
+INSERT INTO [t7037] VALUES (45,'فصل الطاء','566','0','0');
+INSERT INTO [t7037] VALUES (46,'فصل الظاء','574','0','0');
+INSERT INTO [t7037] VALUES (47,'فصل العين','583','0','0');
+INSERT INTO [t7037] VALUES (48,'فصل الغين','649','0','0');
+INSERT INTO [t7037] VALUES (49,'فصل الفاء','660','0','0');
+INSERT INTO [t7037] VALUES (50,'فصل القاف','688','0','0');
+INSERT INTO [t7037] VALUES (51,'فصل الكاف','727','0','0');
+INSERT INTO [t7037] VALUES (52,'فصل اللام','763','0','0');
+INSERT INTO [t7037] VALUES (53,'فصل الميم','788','0','0');
+INSERT INTO [t7037] VALUES (54,'فصل النون','872','0','0');
+INSERT INTO [t7037] VALUES (55,'نوع','900','0','0');
+INSERT INTO [t7037] VALUES (56,'فصل الواو','904','0','0');
+INSERT INTO [t7037] VALUES (57,'نوع','934','0','0');
+INSERT INTO [t7037] VALUES (58,'فصل الهاء','937','0','0');
+INSERT INTO [t7037] VALUES (59,'نوع','949','0','0');
+INSERT INTO [t7037] VALUES (60,'فصل لا','951','0','0');
+INSERT INTO [t7037] VALUES (61,'نوع','961','0','0');
+INSERT INTO [t7037] VALUES (62,'فصل الياء','964','0','0');
+INSERT INTO [t7037] VALUES (63,'نوع','973','0','0');
+INSERT INTO [t7037] VALUES (64,'فصل في المتفرقات','980','0','0');
+INSERT INTO [t7037] VALUES (65,'فصل','988','0','0');
