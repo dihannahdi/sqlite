@@ -1,0 +1,77 @@
+-- Table: t659
+-- Chunk: 1
+-- Rows: 70
+
+CREATE TABLE "t659" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t659
+INSERT INTO [t659] VALUES (1,'بسم الله الرحمن الرحيم','1','0','0');
+INSERT INTO [t659] VALUES (2,'حرف الألف','1','0','0');
+INSERT INTO [t659] VALUES (3,'الخطبة الثانية','1','2','0');
+INSERT INTO [t659] VALUES (4,'الخطبة الثالثة','1','2','0');
+INSERT INTO [t659] VALUES (5,'الخطبة الرابعة','1','2','0');
+INSERT INTO [t659] VALUES (6,'حرف الباء','1','0','0');
+INSERT INTO [t659] VALUES (7,'الخطبة الثانية','2','6','0');
+INSERT INTO [t659] VALUES (8,'الخطبة الثانية','2','6','0');
+INSERT INTO [t659] VALUES (9,'الخطبة الثالثة','2','6','0');
+INSERT INTO [t659] VALUES (10,'الخطبة الثالثة','2','6','0');
+INSERT INTO [t659] VALUES (11,'حرف التاء','2','0','0');
+INSERT INTO [t659] VALUES (12,'الخطبة الرابعة','2','11','0');
+INSERT INTO [t659] VALUES (13,'الخطبة الخامسة','3','11','0');
+INSERT INTO [t659] VALUES (14,'حرف الثاء','3','0','0');
+INSERT INTO [t659] VALUES (15,'الخطبة الثانية','3','14','0');
+INSERT INTO [t659] VALUES (16,'الخطبة الثالثة','3','14','0');
+INSERT INTO [t659] VALUES (17,'حرف الجيم','3','0','0');
+INSERT INTO [t659] VALUES (18,'الخطبة الثانية','4','17','0');
+INSERT INTO [t659] VALUES (19,'الخطبة الثالثة','4','17','0');
+INSERT INTO [t659] VALUES (20,'الخطبة الرابعة','4','17','0');
+INSERT INTO [t659] VALUES (21,'الخطبة الخامسة','4','17','0');
+INSERT INTO [t659] VALUES (22,'حرف الحاء','4','0','0');
+INSERT INTO [t659] VALUES (23,'الخطبة الثانية','5','22','0');
+INSERT INTO [t659] VALUES (24,'الخطبة الثانية','5','22','0');
+INSERT INTO [t659] VALUES (25,'حرف الدال','5','0','0');
+INSERT INTO [t659] VALUES (26,'الخطبة الثالثة','5','25','0');
+INSERT INTO [t659] VALUES (27,'الخطبة الرابعة','5','25','0');
+INSERT INTO [t659] VALUES (28,'حرف الذال','6','0','0');
+INSERT INTO [t659] VALUES (29,'الخطبة الثانية','6','28','0');
+INSERT INTO [t659] VALUES (30,'الخطبة الثانية','6','28','0');
+INSERT INTO [t659] VALUES (31,'حرف الراء','6','0','0');
+INSERT INTO [t659] VALUES (32,'حرف الزاي','7','0','0');
+INSERT INTO [t659] VALUES (33,'الخطبة الثانية','7','32','0');
+INSERT INTO [t659] VALUES (34,'الخطبة الثانية','7','32','0');
+INSERT INTO [t659] VALUES (35,'حرف السين','7','0','0');
+INSERT INTO [t659] VALUES (36,'الخطبة الثالثة','7','35','0');
+INSERT INTO [t659] VALUES (37,'الخطبة الرابعة','8','35','0');
+INSERT INTO [t659] VALUES (38,'حرف الشين','8','0','0');
+INSERT INTO [t659] VALUES (39,'الخطبة الثانية','8','38','0');
+INSERT INTO [t659] VALUES (40,'الخطبة الثالثة','8','38','0');
+INSERT INTO [t659] VALUES (41,'حرف الصاد','9','0','0');
+INSERT INTO [t659] VALUES (42,'الخطبة الثانية','9','41','0');
+INSERT INTO [t659] VALUES (43,'الخطبة الثالثة','9','41','0');
+INSERT INTO [t659] VALUES (44,'حرف الضاد','10','0','0');
+INSERT INTO [t659] VALUES (45,'الخطبة الثانية','10','44','0');
+INSERT INTO [t659] VALUES (46,'الخطبة الثانية','10','44','0');
+INSERT INTO [t659] VALUES (47,'حرف العين','10','0','0');
+INSERT INTO [t659] VALUES (48,'حرف الفاء','10','0','0');
+INSERT INTO [t659] VALUES (49,'الخطبة الثانية','11','48','0');
+INSERT INTO [t659] VALUES (50,'الخطبة الثانية','11','48','0');
+INSERT INTO [t659] VALUES (51,'حرف القاف','11','0','0');
+INSERT INTO [t659] VALUES (52,'حرف الكاف','11','0','0');
+INSERT INTO [t659] VALUES (53,'الخطبة الثالثة','11','52','0');
+INSERT INTO [t659] VALUES (54,'الخطبة الرابعة','11','52','0');
+INSERT INTO [t659] VALUES (55,'حرف اللام','12','0','0');
+INSERT INTO [t659] VALUES (56,'الخطبة الثانية','12','55','0');
+INSERT INTO [t659] VALUES (57,'الخطبة الثالثة','12','55','0');
+INSERT INTO [t659] VALUES (58,'الخطبة الرابعة','12','55','0');
+INSERT INTO [t659] VALUES (59,'الخطبة الخامسة','12','55','0');
+INSERT INTO [t659] VALUES (60,'الخطبة السادسة','13','55','0');
+INSERT INTO [t659] VALUES (61,'حرف الميم','13','0','0');
+INSERT INTO [t659] VALUES (62,'الخطبة الثانية','13','61','0');
+INSERT INTO [t659] VALUES (63,'الخطبة الثالثة','13','61','0');
+INSERT INTO [t659] VALUES (64,'حرف النون','13','0','0');
+INSERT INTO [t659] VALUES (65,'الخطبة الثانية','14','64','0');
+INSERT INTO [t659] VALUES (66,'الخطبة الثالثة','14','64','0');
+INSERT INTO [t659] VALUES (67,'حرف الواو','14','0','0');
+INSERT INTO [t659] VALUES (68,'حرف الهاء','14','0','0');
+INSERT INTO [t659] VALUES (69,'حرف الياء','15','0','0');
+INSERT INTO [t659] VALUES (70,'الخطبة الثانية','15','69','0');
