@@ -1,0 +1,71 @@
+-- Table: t5409
+-- Chunk: 1
+-- Rows: 64
+
+CREATE TABLE "t5409" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t5409
+INSERT INTO [t5409] VALUES (1,'بسم الله الرحمن الرحيم وبه التوفيق','1','0','0');
+INSERT INTO [t5409] VALUES (2,'فصل لا بأس بإيراده','1','0','0');
+INSERT INTO [t5409] VALUES (3,'فصل','2','0','0');
+INSERT INTO [t5409] VALUES (4,'-١-','3','0','0');
+INSERT INTO [t5409] VALUES (5,'-٢-','3','0','0');
+INSERT INTO [t5409] VALUES (6,'-٣-','4','0','0');
+INSERT INTO [t5409] VALUES (7,'-٤-','5','0','0');
+INSERT INTO [t5409] VALUES (8,'-٥-','5','0','0');
+INSERT INTO [t5409] VALUES (9,'-٦-','5','0','0');
+INSERT INTO [t5409] VALUES (10,'-٧-','6','0','0');
+INSERT INTO [t5409] VALUES (11,'-٨-','6','0','0');
+INSERT INTO [t5409] VALUES (12,'-٩-','6','0','0');
+INSERT INTO [t5409] VALUES (13,'-١٠-','7','0','0');
+INSERT INTO [t5409] VALUES (14,'-١١-','7','0','0');
+INSERT INTO [t5409] VALUES (15,'-١٢-','8','0','0');
+INSERT INTO [t5409] VALUES (16,'-١٣-','8','0','0');
+INSERT INTO [t5409] VALUES (17,'-١٤-','8','0','0');
+INSERT INTO [t5409] VALUES (18,'-١٥-','8','0','0');
+INSERT INTO [t5409] VALUES (19,'-١٦-','9','0','0');
+INSERT INTO [t5409] VALUES (20,'-١٧-','9','0','0');
+INSERT INTO [t5409] VALUES (21,'-١٨-','10','0','0');
+INSERT INTO [t5409] VALUES (22,'-١٩-','11','0','0');
+INSERT INTO [t5409] VALUES (23,'-٢٠-','11','0','0');
+INSERT INTO [t5409] VALUES (24,'-٢١-','11','0','0');
+INSERT INTO [t5409] VALUES (25,'-٢٢-','12','0','0');
+INSERT INTO [t5409] VALUES (26,'-٢٣-','12','0','0');
+INSERT INTO [t5409] VALUES (27,'-٢٤-','12','0','0');
+INSERT INTO [t5409] VALUES (28,'-٢٥-','13','0','0');
+INSERT INTO [t5409] VALUES (29,'-٢٦-','13','0','0');
+INSERT INTO [t5409] VALUES (30,'-٢٧-','13','0','0');
+INSERT INTO [t5409] VALUES (31,'-٢٨-','14','0','0');
+INSERT INTO [t5409] VALUES (32,'-٢٩-','14','0','0');
+INSERT INTO [t5409] VALUES (33,'-٣٠-','14','0','0');
+INSERT INTO [t5409] VALUES (34,'-٣١-','14','0','0');
+INSERT INTO [t5409] VALUES (35,'-٣٢-','15','0','0');
+INSERT INTO [t5409] VALUES (36,'-٣٣-','15','0','0');
+INSERT INTO [t5409] VALUES (37,'-٣٤-','16','0','0');
+INSERT INTO [t5409] VALUES (38,'-٣٥-','16','0','0');
+INSERT INTO [t5409] VALUES (39,'-٣٦-','16','0','0');
+INSERT INTO [t5409] VALUES (40,'-٣٧-','17','0','0');
+INSERT INTO [t5409] VALUES (41,'-٣٨-','17','0','0');
+INSERT INTO [t5409] VALUES (42,'-٣٩-','17','0','0');
+INSERT INTO [t5409] VALUES (43,'-٤٠-','17','0','0');
+INSERT INTO [t5409] VALUES (44,'-٤١-','18','0','0');
+INSERT INTO [t5409] VALUES (45,'-٤٢-','18','0','0');
+INSERT INTO [t5409] VALUES (46,'-٤٣-','18','0','0');
+INSERT INTO [t5409] VALUES (47,'-٤٤-','18','0','0');
+INSERT INTO [t5409] VALUES (48,'-٤٥-','18','0','0');
+INSERT INTO [t5409] VALUES (49,'-٤٦-','19','0','0');
+INSERT INTO [t5409] VALUES (50,'-٤٧-','19','0','0');
+INSERT INTO [t5409] VALUES (51,'-٤٨-','19','0','0');
+INSERT INTO [t5409] VALUES (52,'-٤٩-','20','0','0');
+INSERT INTO [t5409] VALUES (53,'-٥٠-','20','0','0');
+INSERT INTO [t5409] VALUES (54,'-٥١-','20','0','0');
+INSERT INTO [t5409] VALUES (55,'-٥٢-','21','0','0');
+INSERT INTO [t5409] VALUES (56,'-٥٣-','21','0','0');
+INSERT INTO [t5409] VALUES (57,'-٥٤-','22','0','0');
+INSERT INTO [t5409] VALUES (58,'-٥٥-','22','0','0');
+INSERT INTO [t5409] VALUES (59,'-٥٦-','22','0','0');
+INSERT INTO [t5409] VALUES (60,'-٥٧-','23','0','0');
+INSERT INTO [t5409] VALUES (61,'-٥٨-','23','0','0');
+INSERT INTO [t5409] VALUES (62,'-٥٩-','23','0','0');
+INSERT INTO [t5409] VALUES (63,'-٦٠-','23','0','0');
+INSERT INTO [t5409] VALUES (64,'-٦١-','24','0','0');
