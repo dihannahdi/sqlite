@@ -1,0 +1,72 @@
+-- Table: t2229
+-- Chunk: 1
+-- Rows: 65
+
+CREATE TABLE "t2229" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t2229
+INSERT INTO [t2229] VALUES (1,'مقدمة المصحح','3','0','0');
+INSERT INTO [t2229] VALUES (2,'عهد التابعين.','4','1','0');
+INSERT INTO [t2229] VALUES (3,'وثانيتها مفسرو الكوفة.','5','1','0');
+INSERT INTO [t2229] VALUES (4,'عهد تبع التابعين','5','1','0');
+INSERT INTO [t2229] VALUES (5,'ترجمة المؤلف','6','1','0');
+INSERT INTO [t2229] VALUES (6,'نسبه','7','1','0');
+INSERT INTO [t2229] VALUES (7,'ولادة الثوري','9','1','0');
+INSERT INTO [t2229] VALUES (8,'مشائخ الثوري','9','1','0');
+INSERT INTO [t2229] VALUES (9,'تلامذة الثوري','10','1','0');
+INSERT INTO [t2229] VALUES (10,'رتبته في الفقه','12','1','0');
+INSERT INTO [t2229] VALUES (11,'مرتبته في التفسير','13','1','0');
+INSERT INTO [t2229] VALUES (12,'كيفية النسخة وكميتها','33','1','0');
+INSERT INTO [t2229] VALUES (13,'ومن خصائص كتابتها','33','1','0');
+INSERT INTO [t2229] VALUES (14,'رواة هذه النسخة','35','1','0');
+INSERT INTO [t2229] VALUES (15,'مآخذ ترجمة الثوري','37','1','0');
+INSERT INTO [t2229] VALUES (16,'(ومن سورة البقرة)','39','0','0');
+INSERT INTO [t2229] VALUES (17,'(ومن سورة آل عمران)','72','0','0');
+INSERT INTO [t2229] VALUES (18,'(سورة النساء)','81','0','0');
+INSERT INTO [t2229] VALUES (19,'(سورة المائدة)','95','0','0');
+INSERT INTO [t2229] VALUES (20,'(الأنعام)','102','0','0');
+INSERT INTO [t2229] VALUES (21,'(ومن سورة الأعراف)','107','0','0');
+INSERT INTO [t2229] VALUES (22,'(ومن سورة الأنفال)','111','0','0');
+INSERT INTO [t2229] VALUES (23,'(ومن سورة براءة)','119','0','0');
+INSERT INTO [t2229] VALUES (24,'(يونس)','124','0','0');
+INSERT INTO [t2229] VALUES (25,'(سورة هود)','125','0','0');
+INSERT INTO [t2229] VALUES (26,'(سورة يوسف)','133','0','0');
+INSERT INTO [t2229] VALUES (27,'(سورة الرعد)','146','0','0');
+INSERT INTO [t2229] VALUES (28,'(سورة إبراهيم)','152','0','0');
+INSERT INTO [t2229] VALUES (29,'(سورة الحجر)','155','0','0');
+INSERT INTO [t2229] VALUES (30,'(سورة النحل)','160','0','0');
+INSERT INTO [t2229] VALUES (31,'(سورة بني إسرائيل)','164','0','0');
+INSERT INTO [t2229] VALUES (32,'(سورة الكهف)','173','0','0');
+INSERT INTO [t2229] VALUES (33,'(سورة مريم)','177','0','0');
+INSERT INTO [t2229] VALUES (34,'(سورة طه)','188','0','0');
+INSERT INTO [t2229] VALUES (35,'(ومن سورة اقترب)','195','0','0');
+INSERT INTO [t2229] VALUES (36,'(ومن سورة الحج)','204','0','0');
+INSERT INTO [t2229] VALUES (37,'(سورة المؤمنين)','212','0','0');
+INSERT INTO [t2229] VALUES (38,'(سورة النور)','216','0','0');
+INSERT INTO [t2229] VALUES (39,'(ومن سورة الفرقان)','222','0','0');
+INSERT INTO [t2229] VALUES (40,'(ومن سورة الشعراء)','225','0','0');
+INSERT INTO [t2229] VALUES (41,'(سورة طس النمل)','228','0','0');
+INSERT INTO [t2229] VALUES (42,'(ومن سورة القصص)','229','0','0');
+INSERT INTO [t2229] VALUES (43,'(ومن سورة العنكبوت)','231','0','0');
+INSERT INTO [t2229] VALUES (44,'(ومن سورة الروم)','233','0','0');
+INSERT INTO [t2229] VALUES (45,'(ومن سورة لقمان)','234','0','0');
+INSERT INTO [t2229] VALUES (46,'(ومن سورة الم السجدة)','236','0','0');
+INSERT INTO [t2229] VALUES (47,'(ومن سورة الأحزاب)','237','0','0');
+INSERT INTO [t2229] VALUES (48,'(سورة سبإ)','239','0','0');
+INSERT INTO [t2229] VALUES (49,'(سورة الملائكة)','242','0','0');
+INSERT INTO [t2229] VALUES (50,'(سورة يس)','244','0','0');
+INSERT INTO [t2229] VALUES (51,'(سورة الصافات)','248','0','0');
+INSERT INTO [t2229] VALUES (52,'(سورة ص)','252','0','0');
+INSERT INTO [t2229] VALUES (53,'(سورة الزمر)','258','0','0');
+INSERT INTO [t2229] VALUES (54,'(سورة المؤمن)','259','0','0');
+INSERT INTO [t2229] VALUES (55,'(سورة حم السجدة)','261','0','0');
+INSERT INTO [t2229] VALUES (56,'(ومن سورة عسق)','264','0','0');
+INSERT INTO [t2229] VALUES (57,'(سورة الزخرف)','266','0','0');
+INSERT INTO [t2229] VALUES (58,'(سورة الجاثية)','271','0','0');
+INSERT INTO [t2229] VALUES (59,'(سورة الأحقاف)','272','0','0');
+INSERT INTO [t2229] VALUES (60,'(سورة الفتح)','274','0','0');
+INSERT INTO [t2229] VALUES (61,'(سورة الحجرات)','275','0','0');
+INSERT INTO [t2229] VALUES (62,'(سورة ق)','276','0','0');
+INSERT INTO [t2229] VALUES (63,'(سورة والذاريات)','277','0','0');
+INSERT INTO [t2229] VALUES (64,'(سورة الطور)','279','0','0');
+INSERT INTO [t2229] VALUES (65,'(الخاتمة)','280','0','0');
