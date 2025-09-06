@@ -1,0 +1,74 @@
+-- Table: t22
+-- Chunk: 1
+-- Rows: 67
+
+CREATE TABLE "t22" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t22
+INSERT INTO [t22] VALUES (1,'مقدمة التحقيق','2','0','0');
+INSERT INTO [t22] VALUES (2,'هذا الكتاب','13','1','0');
+INSERT INTO [t22] VALUES (3,'الكتاب بين مؤلفات ابن الجوزى التاريخية','14','1','0');
+INSERT INTO [t22] VALUES (4,'فوائد هذا المنهج من التراجم','15','1','0');
+INSERT INTO [t22] VALUES (5,'مصادر الكتاب','18','1','0');
+INSERT INTO [t22] VALUES (6,'نقول المتأخرين عنه','19','1','0');
+INSERT INTO [t22] VALUES (7,'نسخة الكتاب','21','1','0');
+INSERT INTO [t22] VALUES (8,'حواشى النسخة','24','1','0');
+INSERT INTO [t22] VALUES (9,'كلمة عن ابن الجوزى','27','1','0');
+INSERT INTO [t22] VALUES (10,'مقدمة المؤلف','39','0','0');
+INSERT INTO [t22] VALUES (11,'فصل','42','10','0');
+INSERT INTO [t22] VALUES (12,'ذكر فضيلة طول العمر فى الخير','43','10','0');
+INSERT INTO [t22] VALUES (13,'عقد العشرة فما زاد','45','0','0');
+INSERT INTO [t22] VALUES (14,'أبو منصور هِبةُ الله بن علىّ بن عَقِيل','46','13','0');
+INSERT INTO [t22] VALUES (15,'عُميْر بن أبى وَقَّاص','48','13','0');
+INSERT INTO [t22] VALUES (16,'عبد الملك بن عُمر بن عبد العزيز','49','13','0');
+INSERT INTO [t22] VALUES (17,'علىّ بن الفُضيل','51','13','0');
+INSERT INTO [t22] VALUES (18,'عقد العشرين فما زاد','52','0','0');
+INSERT INTO [t22] VALUES (19,'عقد الثلاثين وما زاد','56','0','0');
+INSERT INTO [t22] VALUES (20,'عقد الأربعين وما زاد','61','0','0');
+INSERT INTO [t22] VALUES (21,'عقد الخمسين وما زاد','68','0','0');
+INSERT INTO [t22] VALUES (22,'عقد الستين وما زاد','73','0','0');
+INSERT INTO [t22] VALUES (23,'عقد السبعين وما زاد','80','0','0');
+INSERT INTO [t22] VALUES (24,'عقد الثمانين فما زاد','92','0','0');
+INSERT INTO [t22] VALUES (25,'فصل ثلاث وثمانين','100','24','0');
+INSERT INTO [t22] VALUES (26,'عقد التسعين وما زاد','112','0','0');
+INSERT INTO [t22] VALUES (27,'عقد المائة وما زاد','125','0','0');
+INSERT INTO [t22] VALUES (28,'عقد المائتين وما زاد','141','0','0');
+INSERT INTO [t22] VALUES (29,'عقد الثلاثمائة وما زاد','148','0','0');
+INSERT INTO [t22] VALUES (30,'عقد الأربعمائة وما زاد','156','0','0');
+INSERT INTO [t22] VALUES (31,'عقد الخمسمائة وما زاد','158','0','0');
+INSERT INTO [t22] VALUES (32,'عقد الستمائة','159','0','0');
+INSERT INTO [t22] VALUES (33,'عقد السبعمائة','160','0','0');
+INSERT INTO [t22] VALUES (34,'عقد الثمانمائة وما زاد','160','0','0');
+INSERT INTO [t22] VALUES (35,'عقد التسعمائة وما زاد','161','0','0');
+INSERT INTO [t22] VALUES (36,'عقد الألف وما زاد','162','0','0');
+INSERT INTO [t22] VALUES (37,'عقد الألفين وما زاد','163','0','0');
+INSERT INTO [t22] VALUES (38,'عقد الثلاثة آلاف وما زاد','164','0','0');
+INSERT INTO [t22] VALUES (39,'فهرس المراجع','166','0','0');
+INSERT INTO [t22] VALUES (40,'(أ)','166','39','0');
+INSERT INTO [t22] VALUES (41,'(ب)','168','39','0');
+INSERT INTO [t22] VALUES (42,'(ت)','169','39','0');
+INSERT INTO [t22] VALUES (43,'(ث)','172','39','0');
+INSERT INTO [t22] VALUES (44,'(ج)','172','39','0');
+INSERT INTO [t22] VALUES (45,'(ح)','173','39','0');
+INSERT INTO [t22] VALUES (46,'(خ)','173','39','0');
+INSERT INTO [t22] VALUES (47,'(د)','173','39','0');
+INSERT INTO [t22] VALUES (48,'(ذ)','175','39','0');
+INSERT INTO [t22] VALUES (49,'(ر)','175','39','0');
+INSERT INTO [t22] VALUES (50,'(ز)','176','39','0');
+INSERT INTO [t22] VALUES (51,'(س)','176','39','0');
+INSERT INTO [t22] VALUES (52,'(ش)','177','39','0');
+INSERT INTO [t22] VALUES (53,'(ص)','178','39','0');
+INSERT INTO [t22] VALUES (54,'(ض)','179','39','0');
+INSERT INTO [t22] VALUES (55,'(ط)','179','39','0');
+INSERT INTO [t22] VALUES (56,'(ع)','180','39','0');
+INSERT INTO [t22] VALUES (57,'(غ)','181','39','0');
+INSERT INTO [t22] VALUES (58,'(ف)','181','39','0');
+INSERT INTO [t22] VALUES (59,'(ق)','182','39','0');
+INSERT INTO [t22] VALUES (60,'(ك)','183','39','0');
+INSERT INTO [t22] VALUES (61,'(ل)','184','39','0');
+INSERT INTO [t22] VALUES (62,'(م)','184','39','0');
+INSERT INTO [t22] VALUES (63,'(ن)','188','39','0');
+INSERT INTO [t22] VALUES (64,'(هـ)','189','39','0');
+INSERT INTO [t22] VALUES (65,'(و)','189','39','0');
+INSERT INTO [t22] VALUES (66,'(ي)','189','39','0');
+INSERT INTO [t22] VALUES (67,'محققات ومؤلفات للمحقق','190','0','0');
