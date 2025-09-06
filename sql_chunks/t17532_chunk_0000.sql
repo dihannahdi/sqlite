@@ -1,0 +1,71 @@
+-- Table: t17532
+-- Chunk: 1
+-- Rows: 64
+
+CREATE TABLE "t17532" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t17532
+INSERT INTO [t17532] VALUES (1,'مقدمة التحقيق','5','0','0');
+INSERT INTO [t17532] VALUES (2,'ترجمة المؤلف','9','1','0');
+INSERT INTO [t17532] VALUES (3,'مقدمة المؤلف','17','0','0');
+INSERT INTO [t17532] VALUES (4,'حرف الألف','18','0','0');
+INSERT INTO [t17532] VALUES (5,'حرف الباء','37','0','0');
+INSERT INTO [t17532] VALUES (6,'حرف التاء','45','0','0');
+INSERT INTO [t17532] VALUES (7,'حرف الثاء','47','0','0');
+INSERT INTO [t17532] VALUES (8,'حرف الجيم','50','0','0');
+INSERT INTO [t17532] VALUES (9,'حرف الحاء المهملة','56','0','0');
+INSERT INTO [t17532] VALUES (10,'حرف الخاء','79','0','0');
+INSERT INTO [t17532] VALUES (11,'حرف الدال','87','0','0');
+INSERT INTO [t17532] VALUES (12,'حرف الذال','90','0','0');
+INSERT INTO [t17532] VALUES (13,'حرف الراء','91','0','0');
+INSERT INTO [t17532] VALUES (14,'حرف الزاي','97','0','0');
+INSERT INTO [t17532] VALUES (15,'حرف السين','105','0','0');
+INSERT INTO [t17532] VALUES (16,'حرف الشين','124','0','0');
+INSERT INTO [t17532] VALUES (17,'حرف الصاد','129','0','0');
+INSERT INTO [t17532] VALUES (18,'حرف الضاد','133','0','0');
+INSERT INTO [t17532] VALUES (19,'حرف الطاء','136','0','0');
+INSERT INTO [t17532] VALUES (20,'حرف الظاء','139','0','0');
+INSERT INTO [t17532] VALUES (21,'حرف العين','140','0','0');
+INSERT INTO [t17532] VALUES (22,'حرف الغين','233','0','0');
+INSERT INTO [t17532] VALUES (23,'حرف الفاء','235','0','0');
+INSERT INTO [t17532] VALUES (24,'حرف القاف','239','0','0');
+INSERT INTO [t17532] VALUES (25,'حرف الكاف','245','0','0');
+INSERT INTO [t17532] VALUES (26,'حرف اللام','247','0','0');
+INSERT INTO [t17532] VALUES (27,'حرف الميم','248','0','0');
+INSERT INTO [t17532] VALUES (28,'حرف النون','300','0','0');
+INSERT INTO [t17532] VALUES (29,'حرف الهاء','307','0','0');
+INSERT INTO [t17532] VALUES (30,'حرف الواو','314','0','0');
+INSERT INTO [t17532] VALUES (31,'حرف اللام ألف','319','0','0');
+INSERT INTO [t17532] VALUES (32,'حرف الياء','320','0','0');
+INSERT INTO [t17532] VALUES (33,'باب الكنى مرتب على الحروف','336','0','0');
+INSERT INTO [t17532] VALUES (34,'حرف الألف','337','33','0');
+INSERT INTO [t17532] VALUES (35,'حرف الباء الموحدة','339','33','0');
+INSERT INTO [t17532] VALUES (36,'حرف التاء المثناة','342','33','0');
+INSERT INTO [t17532] VALUES (37,'حرف الثاء المثلثة','343','33','0');
+INSERT INTO [t17532] VALUES (38,'حرف الجيم','344','33','0');
+INSERT INTO [t17532] VALUES (39,'حرف الحاء المهملة','346','33','0');
+INSERT INTO [t17532] VALUES (40,'حرف الخاء المعجمة','349','33','0');
+INSERT INTO [t17532] VALUES (41,'حرف الذال المعجمة','350','33','0');
+INSERT INTO [t17532] VALUES (42,'حرف الراء','351','33','0');
+INSERT INTO [t17532] VALUES (43,'حرف الزاي','352','33','0');
+INSERT INTO [t17532] VALUES (44,'حرف السين','353','33','0');
+INSERT INTO [t17532] VALUES (45,'حرف الشين المعجمة','356','33','0');
+INSERT INTO [t17532] VALUES (46,'حرف الصاد المهملة','358','33','0');
+INSERT INTO [t17532] VALUES (47,'حرف الطاء','359','33','0');
+INSERT INTO [t17532] VALUES (48,'حرف الظاء المعجمة','360','33','0');
+INSERT INTO [t17532] VALUES (49,'حرف العين المهملة','361','33','0');
+INSERT INTO [t17532] VALUES (50,'حرف الغين','365','33','0');
+INSERT INTO [t17532] VALUES (51,'حرف الفاء','366','33','0');
+INSERT INTO [t17532] VALUES (52,'حرف القاف','367','33','0');
+INSERT INTO [t17532] VALUES (53,'حرف الكاف','368','33','0');
+INSERT INTO [t17532] VALUES (54,'حرف اللام','370','33','0');
+INSERT INTO [t17532] VALUES (55,'حرف الميم','371','33','0');
+INSERT INTO [t17532] VALUES (56,'حرف النون','374','33','0');
+INSERT INTO [t17532] VALUES (57,'حرف الهاء','375','33','0');
+INSERT INTO [t17532] VALUES (58,'حرف الواو','376','33','0');
+INSERT INTO [t17532] VALUES (59,'حرف الياء','377','33','0');
+INSERT INTO [t17532] VALUES (60,'باب من نسب إلى قرابة','378','0','0');
+INSERT INTO [t17532] VALUES (61,'باب الأنساب إلى القبائل وغير ذلك','381','0','0');
+INSERT INTO [t17532] VALUES (62,'باب الألقاب ونحوها','387','0','0');
+INSERT INTO [t17532] VALUES (63,'باب المبهمات','388','0','0');
+INSERT INTO [t17532] VALUES (64,'باب النساء','389','0','0');
