@@ -1,0 +1,78 @@
+-- Table: t3863
+-- Chunk: 1
+-- Rows: 71
+
+CREATE TABLE "t3863" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t3863
+INSERT INTO [t3863] VALUES (1,'المؤلف - اسمه ونسبه','1','0','0');
+INSERT INTO [t3863] VALUES (2,'مولده ووفاته','3','0','0');
+INSERT INTO [t3863] VALUES (3,'دراسة الكتاب - عنوانه','5','0','0');
+INSERT INTO [t3863] VALUES (4,'نسبة الكتاب للمؤلف','6','0','0');
+INSERT INTO [t3863] VALUES (5,'مصادر الكتاب','7','0','0');
+INSERT INTO [t3863] VALUES (6,'موقفه من ابن مالك','8','0','0');
+INSERT INTO [t3863] VALUES (7,'طريقته في الشرح','11','0','0');
+INSERT INTO [t3863] VALUES (8,'شرحه الغريب','13','0','0');
+INSERT INTO [t3863] VALUES (9,'شواهده','14','0','0');
+INSERT INTO [t3863] VALUES (10,'لامية الأفعال','16','0','0');
+INSERT INTO [t3863] VALUES (11,'مباحثها','17','0','0');
+INSERT INTO [t3863] VALUES (12,'شروح اللامية','19','0','0');
+INSERT INTO [t3863] VALUES (13,'موازنة بين هذا الكتاب وشرح الناظم وفتح الأقفال','22','0','0');
+INSERT INTO [t3863] VALUES (14,'التعريف بالكتب - شرح ابن الناظم','23','0','0');
+INSERT INTO [t3863] VALUES (15,'طبعات الكتاب','24','0','0');
+INSERT INTO [t3863] VALUES (16,'فتح الأقفال','25','0','0');
+INSERT INTO [t3863] VALUES (17,'فتح المتعال','27','0','0');
+INSERT INTO [t3863] VALUES (18,'شواهدهم','29','0','0');
+INSERT INTO [t3863] VALUES (19,'موقفهم من الناظم','31','0','0');
+INSERT INTO [t3863] VALUES (20,'التعرض للمسائل الخلافية','32','0','0');
+INSERT INTO [t3863] VALUES (21,'وصف النسخ الخطية','33','0','0');
+INSERT INTO [t3863] VALUES (22,'عملي في التحقيق','35','0','0');
+INSERT INTO [t3863] VALUES (23,'باب أبنية الفعل المجرد وتصاريفه','60','0','0');
+INSERT INTO [t3863] VALUES (24,'الرباعي المجرد','61','0','0');
+INSERT INTO [t3863] VALUES (25,'تنبيه','64','0','0');
+INSERT INTO [t3863] VALUES (26,'تتمة','65','0','0');
+INSERT INTO [t3863] VALUES (27,'المضارع من الثلاثي','66','0','0');
+INSERT INTO [t3863] VALUES (28,'باب كرم','67','0','0');
+INSERT INTO [t3863] VALUES (29,'باب فرح','68','0','0');
+INSERT INTO [t3863] VALUES (30,'باب حسب','69','0','0');
+INSERT INTO [t3863] VALUES (31,'تنبيهان','74','0','0');
+INSERT INTO [t3863] VALUES (32,'مضارع فعل المفتوح','78','0','0');
+INSERT INTO [t3863] VALUES (33,'باب ضرب','79','0','0');
+INSERT INTO [t3863] VALUES (34,'المثال الواوي','80','0','0');
+INSERT INTO [t3863] VALUES (35,'تنبيه','82','0','0');
+INSERT INTO [t3863] VALUES (36,'الأجوف اليأئي','84','0','0');
+INSERT INTO [t3863] VALUES (37,'تنبيه','85','0','0');
+INSERT INTO [t3863] VALUES (38,'مثال النوع الثالث: النقص اليائي','86','0','0');
+INSERT INTO [t3863] VALUES (39,'تنبيه','87','0','0');
+INSERT INTO [t3863] VALUES (40,'مثال النوع الرابع - المضاعف اللازم','88','0','0');
+INSERT INTO [t3863] VALUES (41,'المضاعف المعدي','89','0','0');
+INSERT INTO [t3863] VALUES (42,'تنبيه','92','0','0');
+INSERT INTO [t3863] VALUES (43,'تنبيهان','97','0','0');
+INSERT INTO [t3863] VALUES (44,'تنبيهان','103','0','0');
+INSERT INTO [t3863] VALUES (45,'باب نصر','105','0','0');
+INSERT INTO [t3863] VALUES (46,'الأجوف والناقص الواوي','106','0','0');
+INSERT INTO [t3863] VALUES (47,'تنبيه','108','0','0');
+INSERT INTO [t3863] VALUES (48,'تنبيه','110','0','0');
+INSERT INTO [t3863] VALUES (49,'المغالبة','111','0','0');
+INSERT INTO [t3863] VALUES (50,'تنبيه','113','0','0');
+INSERT INTO [t3863] VALUES (51,'باب فتح','115','0','0');
+INSERT INTO [t3863] VALUES (52,'تنبيه','119','0','0');
+INSERT INTO [t3863] VALUES (53,'فصل في اتصال تاء الفاعل أونونه بالفعل','124','0','0');
+INSERT INTO [t3863] VALUES (54,'تنبيه','128','0','0');
+INSERT INTO [t3863] VALUES (55,'باب أبنية الفعل المزيد فيه','130','0','0');
+INSERT INTO [t3863] VALUES (56,'فوائد','132','0','0');
+INSERT INTO [t3863] VALUES (57,'تنبيه','149','0','0');
+INSERT INTO [t3863] VALUES (58,'فصل في المضارع','151','0','0');
+INSERT INTO [t3863] VALUES (59,'حروف المضارعة','152','0','0');
+INSERT INTO [t3863] VALUES (60,'تنبيه','153','0','0');
+INSERT INTO [t3863] VALUES (61,'حركة حروف المضارعة','154','0','0');
+INSERT INTO [t3863] VALUES (62,'كسر حروف المضارعة','155','0','0');
+INSERT INTO [t3863] VALUES (63,'تنبيه','159','0','0');
+INSERT INTO [t3863] VALUES (64,'حركة ما قبل آخر المضارع','160','0','0');
+INSERT INTO [t3863] VALUES (65,'تنبيه','162','0','0');
+INSERT INTO [t3863] VALUES (66,'فصل في فعل مالم يسم فاعله','163','0','0');
+INSERT INTO [t3863] VALUES (67,'تنبيه','164','0','0');
+INSERT INTO [t3863] VALUES (68,'تنبيه','166','0','0');
+INSERT INTO [t3863] VALUES (69,'فصل في فعل الأمر','168','0','0');
+INSERT INTO [t3863] VALUES (70,'تنبيه','172','0','0');
+INSERT INTO [t3863] VALUES (71,'تنبيهات','174','0','0');
