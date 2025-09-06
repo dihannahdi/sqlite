@@ -1,0 +1,73 @@
+-- Table: t8266
+-- Chunk: 1
+-- Rows: 66
+
+CREATE TABLE "t8266" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t8266
+INSERT INTO [t8266] VALUES (1,'أسباب العقوبات وأنواعها','1','0','0');
+INSERT INTO [t8266] VALUES (2,'قصة آدم عليه السلام','103','0','0');
+INSERT INTO [t8266] VALUES (3,'نوح عليه السلام','117','0','0');
+INSERT INTO [t8266] VALUES (4,'هود ينصح قومه','119','0','0');
+INSERT INTO [t8266] VALUES (5,'الريح عقوبة عاد','121','0','0');
+INSERT INTO [t8266] VALUES (6,'آدم عليه السلام','123','0','0');
+INSERT INTO [t8266] VALUES (7,'عاد قوم هود','133','0','0');
+INSERT INTO [t8266] VALUES (8,'ثمود قوم صالح','140','0','0');
+INSERT INTO [t8266] VALUES (9,'قوم لوط','157','0','0');
+INSERT INTO [t8266] VALUES (10,'يعقوب ويوسف عليهما السلام','163','0','0');
+INSERT INTO [t8266] VALUES (11,'أيوب عليه السلام','177','0','0');
+INSERT INTO [t8266] VALUES (12,'يونس عليه السلام وقومه','182','0','0');
+INSERT INTO [t8266] VALUES (13,'قوم شعيب عليه السلام','195','0','0');
+INSERT INTO [t8266] VALUES (14,'ابنا هارون عليه السلام','203','0','0');
+INSERT INTO [t8266] VALUES (15,'أول قصة سليمان بن داود عليهما السلام','206','0','0');
+INSERT INTO [t8266] VALUES (16,'أول قصة داود عليه السلام','217','0','0');
+INSERT INTO [t8266] VALUES (17,'من أخبار بني إسرائيل','234','0','0');
+INSERT INTO [t8266] VALUES (18,'الملائكة عليهم السلام','237','0','0');
+INSERT INTO [t8266] VALUES (19,'شعيا وبنو إسرائيل','243','0','0');
+INSERT INTO [t8266] VALUES (20,'أصحاب السبت','245','0','0');
+INSERT INTO [t8266] VALUES (21,'مسخ وخسف','251','0','0');
+INSERT INTO [t8266] VALUES (22,'قارون','255','0','0');
+INSERT INTO [t8266] VALUES (23,'عقوبة ملكين','260','0','0');
+INSERT INTO [t8266] VALUES (24,'والد لوط عليه السلام','263','0','0');
+INSERT INTO [t8266] VALUES (25,'موسى وبنو إسرائيل','265','0','0');
+INSERT INTO [t8266] VALUES (26,'أصحاب الفيل','267','0','0');
+INSERT INTO [t8266] VALUES (27,'فرعون','270','0','0');
+INSERT INTO [t8266] VALUES (28,'الظالم','275','0','0');
+INSERT INTO [t8266] VALUES (29,'تأخير العقوبة','277','0','0');
+INSERT INTO [t8266] VALUES (30,'أهل العقوبات','281','0','0');
+INSERT INTO [t8266] VALUES (31,'الفتن','291','0','0');
+INSERT INTO [t8266] VALUES (32,'آثار عصيان بني آدم على الحيوانات','299','0','0');
+INSERT INTO [t8266] VALUES (33,'ولاة الخير وولاة الشر','306','0','0');
+INSERT INTO [t8266] VALUES (34,'الأرض','313','0','0');
+INSERT INTO [t8266] VALUES (35,'عقوبات في آخر الزمان','317','0','0');
+INSERT INTO [t8266] VALUES (36,'قوم موسى عليه السلام','333','0','0');
+INSERT INTO [t8266] VALUES (37,'في البيت الحرام والدعاء بالعقوبة','339','0','0');
+INSERT INTO [t8266] VALUES (38,'الوقوع في الصحابة رضي الله عنهم','349','0','0');
+INSERT INTO [t8266] VALUES (39,'قتل الولد','352','0','0');
+INSERT INTO [t8266] VALUES (40,'الاستهزاء','355','0','0');
+INSERT INTO [t8266] VALUES (41,'أنواع المعاصي','357','0','0');
+INSERT INTO [t8266] VALUES (42,'شكوى يعقوب عليه السلام','360','0','0');
+INSERT INTO [t8266] VALUES (43,'وقت العذاب','362','0','0');
+INSERT INTO [t8266] VALUES (44,'الفتنة','365','0','0');
+INSERT INTO [t8266] VALUES (45,'إسرائيليات','367','0','0');
+INSERT INTO [t8266] VALUES (46,'المؤمن في الفتن','371','0','0');
+INSERT INTO [t8266] VALUES (47,'في زمن العقوبة','373','0','0');
+INSERT INTO [t8266] VALUES (48,'الاعتبار بالآخرين','376','0','0');
+INSERT INTO [t8266] VALUES (49,'عدم استجابة الدعاء','379','0','0');
+INSERT INTO [t8266] VALUES (50,'بختنصر','382','0','0');
+INSERT INTO [t8266] VALUES (51,'جالوت','384','0','0');
+INSERT INTO [t8266] VALUES (52,'الذين تعرضوا لعثمان رضي الله عنه','386','0','0');
+INSERT INTO [t8266] VALUES (53,'تلفظه الأرض','389','0','0');
+INSERT INTO [t8266] VALUES (54,'من علامات الساعة','393','0','0');
+INSERT INTO [t8266] VALUES (55,'بنو إسرائيل','398','0','0');
+INSERT INTO [t8266] VALUES (56,'نوح عليه السلام','401','0','0');
+INSERT INTO [t8266] VALUES (57,'ضلال','403','0','0');
+INSERT INTO [t8266] VALUES (58,'وتقليد','406','0','0');
+INSERT INTO [t8266] VALUES (59,'الدعاء على الآخرين','408','0','0');
+INSERT INTO [t8266] VALUES (60,'الربا','410','0','0');
+INSERT INTO [t8266] VALUES (61,'من أشراط الساعة','413','0','0');
+INSERT INTO [t8266] VALUES (62,'الزلزال','416','0','0');
+INSERT INTO [t8266] VALUES (63,'عقوبة عدم تسبيح الطيور','418','0','0');
+INSERT INTO [t8266] VALUES (64,'المسخ','421','0','0');
+INSERT INTO [t8266] VALUES (65,'ابنا هارون عليه السلام','423','0','0');
+INSERT INTO [t8266] VALUES (66,'الدعاء من سبل النجاة','425','0','0');
