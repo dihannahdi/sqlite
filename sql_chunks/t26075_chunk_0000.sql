@@ -1,0 +1,75 @@
+-- Table: t26075
+-- Chunk: 1
+-- Rows: 68
+
+CREATE TABLE "t26075" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t26075
+INSERT INTO [t26075] VALUES (1,'الجزء العاشر من المنتخب','1','0','0');
+INSERT INTO [t26075] VALUES (2,'الزهد في الدنيا وذمها','2','0','0');
+INSERT INTO [t26075] VALUES (3,'في الشبع','8','0','0');
+INSERT INTO [t26075] VALUES (4,'في البنات والأخوت','10','0','0');
+INSERT INTO [t26075] VALUES (5,'الأطفال','12','0','0');
+INSERT INTO [t26075] VALUES (6,'بدأ الإسلام غريبا','14','0','0');
+INSERT INTO [t26075] VALUES (7,'أمتي مثل المطر','15','0','0');
+INSERT INTO [t26075] VALUES (8,'في السباحة والمغزل','17','0','0');
+INSERT INTO [t26075] VALUES (9,'في عدن الزنج والبربر','18','0','0');
+INSERT INTO [t26075] VALUES (10,'في مرو','21','0','0');
+INSERT INTO [t26075] VALUES (11,'مسجد فوشنج','22','0','0');
+INSERT INTO [t26075] VALUES (12,'في الهدية','23','0','0');
+INSERT INTO [t26075] VALUES (13,'في السدر','25','0','0');
+INSERT INTO [t26075] VALUES (14,'أحاديث شتى','26','0','0');
+INSERT INTO [t26075] VALUES (15,'أحاديث أخر','35','0','0');
+INSERT INTO [t26075] VALUES (16,'بيع العقار','38','0','0');
+INSERT INTO [t26075] VALUES (17,'اتخاذ شيء فيه روح غرضا','39','0','0');
+INSERT INTO [t26075] VALUES (18,'الاتكاء','41','0','0');
+INSERT INTO [t26075] VALUES (19,'الشطرنج','42','0','0');
+INSERT INTO [t26075] VALUES (20,'الغناء','45','0','0');
+INSERT INTO [t26075] VALUES (21,'التغني بالقرآن','49','0','0');
+INSERT INTO [t26075] VALUES (22,'فضائل القرآن','52','0','0');
+INSERT INTO [t26075] VALUES (23,'في تعليم القرآن','56','0','0');
+INSERT INTO [t26075] VALUES (24,'تعلم المرأة والصبي','58','0','0');
+INSERT INTO [t26075] VALUES (25,'قولهم: سورة كذا','59','0','0');
+INSERT INTO [t26075] VALUES (26,'في التفسير','60','0','0');
+INSERT INTO [t26075] VALUES (27,'كتاب العلم','64','0','0');
+INSERT INTO [t26075] VALUES (28,'الوصية بطلبة العلم','67','0','0');
+INSERT INTO [t26075] VALUES (29,'علم المدينة','69','0','0');
+INSERT INTO [t26075] VALUES (30,'ذكر المدينة','70','0','0');
+INSERT INTO [t26075] VALUES (31,'قول الصحابة','71','0','0');
+INSERT INTO [t26075] VALUES (32,'الحديث المعروف','73','0','0');
+INSERT INTO [t26075] VALUES (33,'اختبار الثقات','75','0','0');
+INSERT INTO [t26075] VALUES (34,'في الأخذ على العلم','78','0','0');
+INSERT INTO [t26075] VALUES (35,'أصحاب الرأي','79','0','0');
+INSERT INTO [t26075] VALUES (36,'ذكر قريش','81','0','0');
+INSERT INTO [t26075] VALUES (37,'إذا بويع لخليفتين','88','0','0');
+INSERT INTO [t26075] VALUES (38,'من خرج على السلطان','89','0','0');
+INSERT INTO [t26075] VALUES (39,'في أخبار النبوة','93','0','0');
+INSERT INTO [t26075] VALUES (40,'فضائل أصحاب رسول الله (صلى الله عليه وسلم)','100','0','0');
+INSERT INTO [t26075] VALUES (41,'ما روي في علي رضي الله عنه','117','0','0');
+INSERT INTO [t26075] VALUES (42,'في سائر الصحابة','127','0','0');
+INSERT INTO [t26075] VALUES (43,'الخلافة','130','0','0');
+INSERT INTO [t26075] VALUES (44,'صفين والجمل','135','0','0');
+INSERT INTO [t26075] VALUES (45,'في بني أمية','138','0','0');
+INSERT INTO [t26075] VALUES (46,'فضائل معاوية','142','0','0');
+INSERT INTO [t26075] VALUES (47,'ذم بني أمية','145','0','0');
+INSERT INTO [t26075] VALUES (48,'يزيد بن معاوية وغيره','146','0','0');
+INSERT INTO [t26075] VALUES (49,'في الإرجاء','153','0','0');
+INSERT INTO [t26075] VALUES (50,'الجزء الحادي عشر من المنتخب','159','0','0');
+INSERT INTO [t26075] VALUES (51,'في الخوارج','160','0','0');
+INSERT INTO [t26075] VALUES (52,'الجهمية','161','0','0');
+INSERT INTO [t26075] VALUES (53,'أخبار الصفات','162','0','0');
+INSERT INTO [t26075] VALUES (54,'أحاديث شتى','183','0','0');
+INSERT INTO [t26075] VALUES (55,'الملاحم','185','0','0');
+INSERT INTO [t26075] VALUES (56,'بغداد','190','0','0');
+INSERT INTO [t26075] VALUES (57,'التوقيت','192','0','0');
+INSERT INTO [t26075] VALUES (58,'السفياني والمهدي','195','0','0');
+INSERT INTO [t26075] VALUES (59,'في بر الوالدين','198','0','0');
+INSERT INTO [t26075] VALUES (60,'الأكل من مال الولد','200','0','0');
+INSERT INTO [t26075] VALUES (61,'الدجال','203','0','0');
+INSERT INTO [t26075] VALUES (62,'في أخبار رجال','204','0','0');
+INSERT INTO [t26075] VALUES (63,'في القيامة','206','0','0');
+INSERT INTO [t26075] VALUES (64,'ومن غير هذا الكتاب','208','0','0');
+INSERT INTO [t26075] VALUES (65,'[في أصحاب الثوري سفيان بن سعيد بن مسروق]','212','0','0');
+INSERT INTO [t26075] VALUES (66,'أصحاب الأعمش','214','0','0');
+INSERT INTO [t26075] VALUES (67,'أصحاب إبراهيم النخعي','217','0','0');
+INSERT INTO [t26075] VALUES (68,'تتمة للمطبوع من كتاب (المنتخب من علل الخلال)','219','0','0');
