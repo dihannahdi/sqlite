@@ -1,0 +1,55 @@
+-- Table: t12094
+-- Chunk: 1
+-- Rows: 48
+
+CREATE TABLE "t12094" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t12094
+INSERT INTO [t12094] VALUES (1,'مقدمة','1','0','0');
+INSERT INTO [t12094] VALUES (2,'فصل','8','0','0');
+INSERT INTO [t12094] VALUES (3,'فصل','9','0','0');
+INSERT INTO [t12094] VALUES (4,'فصل','10','0','0');
+INSERT INTO [t12094] VALUES (5,'فصل','11','0','0');
+INSERT INTO [t12094] VALUES (6,'فصل','18','0','0');
+INSERT INTO [t12094] VALUES (7,'فصل','22','0','0');
+INSERT INTO [t12094] VALUES (8,'فصل','28','0','0');
+INSERT INTO [t12094] VALUES (9,'فصل','30','0','0');
+INSERT INTO [t12094] VALUES (10,'فصل','32','0','0');
+INSERT INTO [t12094] VALUES (11,'فصل','46','0','0');
+INSERT INTO [t12094] VALUES (12,'فصل','52','0','0');
+INSERT INTO [t12094] VALUES (13,'فصل','65','0','0');
+INSERT INTO [t12094] VALUES (14,'فصل','70','0','0');
+INSERT INTO [t12094] VALUES (15,'فصل','75','0','0');
+INSERT INTO [t12094] VALUES (16,'فصل','80','0','0');
+INSERT INTO [t12094] VALUES (17,'فصل','83','0','0');
+INSERT INTO [t12094] VALUES (18,'فصل','91','0','0');
+INSERT INTO [t12094] VALUES (19,'فصل','114','0','0');
+INSERT INTO [t12094] VALUES (20,'فصل','123','0','0');
+INSERT INTO [t12094] VALUES (21,'فصل','133','0','0');
+INSERT INTO [t12094] VALUES (22,'فصل','142','0','0');
+INSERT INTO [t12094] VALUES (23,'فصل','174','0','0');
+INSERT INTO [t12094] VALUES (24,'فصل','194','0','0');
+INSERT INTO [t12094] VALUES (25,'فصل','198','0','0');
+INSERT INTO [t12094] VALUES (26,'فصل','203','0','0');
+INSERT INTO [t12094] VALUES (27,'فصل','204','0','0');
+INSERT INTO [t12094] VALUES (28,'فصل','210','0','0');
+INSERT INTO [t12094] VALUES (29,'فصل','215','0','0');
+INSERT INTO [t12094] VALUES (30,'فصل','231','0','0');
+INSERT INTO [t12094] VALUES (31,'فصل','233','0','0');
+INSERT INTO [t12094] VALUES (32,'فصل','239','0','0');
+INSERT INTO [t12094] VALUES (33,'فصل','251','0','0');
+INSERT INTO [t12094] VALUES (34,'فصل','262','0','0');
+INSERT INTO [t12094] VALUES (35,'فصل','270','0','0');
+INSERT INTO [t12094] VALUES (36,'فصل','271','0','0');
+INSERT INTO [t12094] VALUES (37,'فصل','274','0','0');
+INSERT INTO [t12094] VALUES (38,'فصل','275','0','0');
+INSERT INTO [t12094] VALUES (39,'فصل','277','0','0');
+INSERT INTO [t12094] VALUES (40,'فصل','279','0','0');
+INSERT INTO [t12094] VALUES (41,'فصل','280','0','0');
+INSERT INTO [t12094] VALUES (42,'فصل','281','0','0');
+INSERT INTO [t12094] VALUES (43,'فصل','284','0','0');
+INSERT INTO [t12094] VALUES (44,'فصل','291','0','0');
+INSERT INTO [t12094] VALUES (45,'فصل','293','0','0');
+INSERT INTO [t12094] VALUES (46,'فصل','295','0','0');
+INSERT INTO [t12094] VALUES (47,'فصل','297','0','0');
+INSERT INTO [t12094] VALUES (48,'فصل','305','0','0');
