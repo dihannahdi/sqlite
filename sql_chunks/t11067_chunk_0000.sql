@@ -1,0 +1,34 @@
+-- Table: t11067
+-- Chunk: 1
+-- Rows: 27
+
+CREATE TABLE "t11067" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t11067
+INSERT INTO [t11067] VALUES (1,'مقدمة','1','0','0');
+INSERT INTO [t11067] VALUES (2,'a','10','0','0');
+INSERT INTO [t11067] VALUES (3,'b','47','0','0');
+INSERT INTO [t11067] VALUES (4,'c','58','0','0');
+INSERT INTO [t11067] VALUES (5,'d','62','0','0');
+INSERT INTO [t11067] VALUES (6,'e','67','0','0');
+INSERT INTO [t11067] VALUES (7,'f','69','0','0');
+INSERT INTO [t11067] VALUES (8,'g','75','0','0');
+INSERT INTO [t11067] VALUES (9,'h','83','0','0');
+INSERT INTO [t11067] VALUES (10,'i','97','0','0');
+INSERT INTO [t11067] VALUES (11,'j','103','0','0');
+INSERT INTO [t11067] VALUES (12,'k','122','0','0');
+INSERT INTO [t11067] VALUES (13,'l','124','0','0');
+INSERT INTO [t11067] VALUES (14,'m','127','0','0');
+INSERT INTO [t11067] VALUES (15,'n','140','0','0');
+INSERT INTO [t11067] VALUES (16,'o','147','0','0');
+INSERT INTO [t11067] VALUES (17,'p','148','0','0');
+INSERT INTO [t11067] VALUES (18,'q','150','0','0');
+INSERT INTO [t11067] VALUES (19,'r','153','0','0');
+INSERT INTO [t11067] VALUES (20,'s','162','0','0');
+INSERT INTO [t11067] VALUES (21,'t','182','0','0');
+INSERT INTO [t11067] VALUES (22,'u','188','0','0');
+INSERT INTO [t11067] VALUES (23,'v','191','0','0');
+INSERT INTO [t11067] VALUES (24,'w','192','0','0');
+INSERT INTO [t11067] VALUES (25,'y','198','0','0');
+INSERT INTO [t11067] VALUES (26,'z','200','0','0');
+INSERT INTO [t11067] VALUES (27,'مصادر ومراجع','207','0','0');
