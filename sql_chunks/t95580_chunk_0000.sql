@@ -1,0 +1,74 @@
+-- Table: t95580
+-- Chunk: 1
+-- Rows: 67
+
+CREATE TABLE "t95580" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t95580
+INSERT INTO [t95580] VALUES (1,'مقدمة المحقق','2','0','0');
+INSERT INTO [t95580] VALUES (2,'المؤلف','2','1','0');
+INSERT INTO [t95580] VALUES (3,'شيوخه:','3','2','0');
+INSERT INTO [t95580] VALUES (4,'تلاميذه:','4','2','0');
+INSERT INTO [t95580] VALUES (5,'مؤلفاته المطبوعة:','5','2','0');
+INSERT INTO [t95580] VALUES (6,'المخطوطة:','5','2','0');
+INSERT INTO [t95580] VALUES (7,'المؤلفات التي لم نقف عليها:','5','2','0');
+INSERT INTO [t95580] VALUES (8,'قصيدتان نسبتا إليه غلطا:','6','2','0');
+INSERT INTO [t95580] VALUES (9,'رأي العلماء فيه:','6','2','0');
+INSERT INTO [t95580] VALUES (10,'الكتاب','8','1','0');
+INSERT INTO [t95580] VALUES (11,'مسألة','12','0','0');
+INSERT INTO [t95580] VALUES (12,'الجواب:','12','11','0');
+INSERT INTO [t95580] VALUES (13,'سؤال','17','0','0');
+INSERT INTO [t95580] VALUES (14,'سؤال','17','0','0');
+INSERT INTO [t95580] VALUES (15,'فالجواب:','17','14','0');
+INSERT INTO [t95580] VALUES (16,'فالجواب:','17','14','0');
+INSERT INTO [t95580] VALUES (17,'مسألة','18','0','0');
+INSERT INTO [t95580] VALUES (18,'مسألة','18','0','0');
+INSERT INTO [t95580] VALUES (19,'مسألة','18','0','0');
+INSERT INTO [t95580] VALUES (20,'فالجواب:','19','19','0');
+INSERT INTO [t95580] VALUES (21,'سؤال','19','0','0');
+INSERT INTO [t95580] VALUES (22,'فالجواب:','19','21','0');
+INSERT INTO [t95580] VALUES (23,'فالجواب:','19','21','0');
+INSERT INTO [t95580] VALUES (24,'فالجواب:','19','21','0');
+INSERT INTO [t95580] VALUES (25,'مسألة','19','0','0');
+INSERT INTO [t95580] VALUES (26,'مسألة','19','0','0');
+INSERT INTO [t95580] VALUES (27,'مسألة','20','0','0');
+INSERT INTO [t95580] VALUES (28,'مسألة','20','0','0');
+INSERT INTO [t95580] VALUES (29,'سؤال','21','0','0');
+INSERT INTO [t95580] VALUES (30,'فالجواب:','21','29','0');
+INSERT INTO [t95580] VALUES (31,'مسألة','21','0','0');
+INSERT INTO [t95580] VALUES (32,'سؤال','22','0','0');
+INSERT INTO [t95580] VALUES (33,'فالجواب:','22','32','0');
+INSERT INTO [t95580] VALUES (34,'فالجواب:','22','32','0');
+INSERT INTO [t95580] VALUES (35,'مسألة','23','0','0');
+INSERT INTO [t95580] VALUES (36,'مسألة','23','0','0');
+INSERT INTO [t95580] VALUES (37,'سؤال','23','0','0');
+INSERT INTO [t95580] VALUES (38,'فالجواب:','23','37','0');
+INSERT INTO [t95580] VALUES (39,'[فالجواب]:','23','37','0');
+INSERT INTO [t95580] VALUES (40,'مسألة','24','0','0');
+INSERT INTO [t95580] VALUES (41,'فالجواب:','25','40','0');
+INSERT INTO [t95580] VALUES (42,'مسألة','25','0','0');
+INSERT INTO [t95580] VALUES (43,'مسألة','25','0','0');
+INSERT INTO [t95580] VALUES (44,'(٩ أ) فالجواب:','26','43','0');
+INSERT INTO [t95580] VALUES (45,'فالجواب:','26','43','0');
+INSERT INTO [t95580] VALUES (46,'مسألة','26','0','0');
+INSERT INTO [t95580] VALUES (47,'مسألة','26','0','0');
+INSERT INTO [t95580] VALUES (48,'مسألة','26','0','0');
+INSERT INTO [t95580] VALUES (49,'مسألة','26','0','0');
+INSERT INTO [t95580] VALUES (50,'فالجواب:','27','49','0');
+INSERT INTO [t95580] VALUES (51,'مسألة','28','0','0');
+INSERT INTO [t95580] VALUES (52,'مسألة','28','0','0');
+INSERT INTO [t95580] VALUES (53,'مسألة','28','0','0');
+INSERT INTO [t95580] VALUES (54,'مسألة','29','0','0');
+INSERT INTO [t95580] VALUES (55,'مسألة','29','0','0');
+INSERT INTO [t95580] VALUES (56,'مسألة','30','0','0');
+INSERT INTO [t95580] VALUES (57,'مسألة','30','0','0');
+INSERT INTO [t95580] VALUES (58,'مسألة','30','0','0');
+INSERT INTO [t95580] VALUES (59,'مسألة','30','0','0');
+INSERT INTO [t95580] VALUES (60,'فالجواب:','31','59','0');
+INSERT INTO [t95580] VALUES (61,'مسألة','31','0','0');
+INSERT INTO [t95580] VALUES (62,'مسألة','31','0','0');
+INSERT INTO [t95580] VALUES (63,'مسألة','32','0','0');
+INSERT INTO [t95580] VALUES (64,'مسألة','32','0','0');
+INSERT INTO [t95580] VALUES (65,'مسألة','32','0','0');
+INSERT INTO [t95580] VALUES (66,'فالجواب:','33','65','0');
+INSERT INTO [t95580] VALUES (67,'مصادر البحث ومراجعه','34','0','0');
