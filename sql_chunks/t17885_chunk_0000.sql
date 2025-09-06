@@ -1,0 +1,71 @@
+-- Table: t17885
+-- Chunk: 1
+-- Rows: 64
+
+CREATE TABLE "t17885" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t17885
+INSERT INTO [t17885] VALUES (1,'مقدمة التحقيق','2','0','0');
+INSERT INTO [t17885] VALUES (2,'مقدمة المؤلف','90','0','0');
+INSERT INTO [t17885] VALUES (3,'كتاب الطهارة','115','0','0');
+INSERT INTO [t17885] VALUES (4,'كتاب الصلاة','385','0','0');
+INSERT INTO [t17885] VALUES (5,'كتاب العيدين','720','0','0');
+INSERT INTO [t17885] VALUES (6,'كتاب صلاة الخسوف','735','0','0');
+INSERT INTO [t17885] VALUES (7,'كتاب: الجنائز','748','0','0');
+INSERT INTO [t17885] VALUES (8,'كتاب الزكاة','803','0','0');
+INSERT INTO [t17885] VALUES (9,'كتاب الصيام','933','0','0');
+INSERT INTO [t17885] VALUES (10,'كتاب الحج','1018','0','0');
+INSERT INTO [t17885] VALUES (11,'كتاب البيوع','1042','0','0');
+INSERT INTO [t17885] VALUES (12,'كتاب الرهن','1310','0','0');
+INSERT INTO [t17885] VALUES (13,'كتاب التفليس','1373','0','0');
+INSERT INTO [t17885] VALUES (14,'كتاب الحجر','1403','0','0');
+INSERT INTO [t17885] VALUES (15,'كتاب الصلح','1415','0','0');
+INSERT INTO [t17885] VALUES (16,'كتاب الحوالة','1433','0','0');
+INSERT INTO [t17885] VALUES (17,'كتاب الضمان','1443','0','0');
+INSERT INTO [t17885] VALUES (18,'كتاب الشركة','1466','0','0');
+INSERT INTO [t17885] VALUES (19,'كتاب الوكالة','1480','0','0');
+INSERT INTO [t17885] VALUES (20,'كتاب الإقرار','1507','0','0');
+INSERT INTO [t17885] VALUES (21,'كتاب العارية','1549','0','0');
+INSERT INTO [t17885] VALUES (22,'كتاب الغصب','1563','0','0');
+INSERT INTO [t17885] VALUES (23,'كتاب الشفعة','1606','0','0');
+INSERT INTO [t17885] VALUES (24,'كتاب القراض','1643','0','0');
+INSERT INTO [t17885] VALUES (25,'كتاب المساقاة','1668','0','0');
+INSERT INTO [t17885] VALUES (26,'كتاب الإجارة','1683','0','0');
+INSERT INTO [t17885] VALUES (27,'كتاب إحياء الموات','1743','0','0');
+INSERT INTO [t17885] VALUES (28,'كتاب العطايا والحبس','1763','0','0');
+INSERT INTO [t17885] VALUES (29,'كتاب اللقطة','1797','0','0');
+INSERT INTO [t17885] VALUES (30,'كتاب الفرائض','1838','0','0');
+INSERT INTO [t17885] VALUES (31,'كتاب الوصايا','1883','0','0');
+INSERT INTO [t17885] VALUES (32,'كتاب: الوديعة','1935','0','0');
+INSERT INTO [t17885] VALUES (33,'كتاب: قسم الفيء','1951','0','0');
+INSERT INTO [t17885] VALUES (34,'كتاب: قسم الصدقات','2001','0','0');
+INSERT INTO [t17885] VALUES (35,'كتاب النكاح','2024','0','0');
+INSERT INTO [t17885] VALUES (36,'كتاب الصداق','2242','0','0');
+INSERT INTO [t17885] VALUES (37,'كتاب الخلع','2314','0','0');
+INSERT INTO [t17885] VALUES (38,'كتاب الطلاق','2345','0','0');
+INSERT INTO [t17885] VALUES (39,'كتاب الرجعة','2433','0','0');
+INSERT INTO [t17885] VALUES (40,'كتاب الإيلاء','2446','0','0');
+INSERT INTO [t17885] VALUES (41,'كتاب الظهار','2468','0','0');
+INSERT INTO [t17885] VALUES (42,'كتاب اللعان','2506','0','0');
+INSERT INTO [t17885] VALUES (43,'كتاب [العدد]','2551','0','0');
+INSERT INTO [t17885] VALUES (44,'كتاب الرضاع','2599','0','0');
+INSERT INTO [t17885] VALUES (45,'كتاب النفقة','2626','0','0');
+INSERT INTO [t17885] VALUES (46,'كتاب القصاص','2682','0','0');
+INSERT INTO [t17885] VALUES (47,'كتاب الديات','2803','0','0');
+INSERT INTO [t17885] VALUES (48,'كتاب القسامة','2892','0','0');
+INSERT INTO [t17885] VALUES (49,'كتاب قتال أهل البغي','2932','0','0');
+INSERT INTO [t17885] VALUES (50,'كتاب الحدود','2966','0','0');
+INSERT INTO [t17885] VALUES (51,'كتاب صول الفحل','3070','0','0');
+INSERT INTO [t17885] VALUES (52,'كتاب السير','3081','0','0');
+INSERT INTO [t17885] VALUES (53,'كتاب الجزية','3127','0','0');
+INSERT INTO [t17885] VALUES (54,'كتاب الصيد والذبائح','3166','0','0');
+INSERT INTO [t17885] VALUES (55,'كتاب الضحايا','3194','0','0');
+INSERT INTO [t17885] VALUES (56,'كتاب الأطعمة','3209','0','0');
+INSERT INTO [t17885] VALUES (57,'كتاب السبق والرمي','3231','0','0');
+INSERT INTO [t17885] VALUES (58,'كتاب الأيمان','3254','0','0');
+INSERT INTO [t17885] VALUES (59,'كتاب أدب القاضي','3321','0','0');
+INSERT INTO [t17885] VALUES (60,'كتاب الدعوى والبينات','3459','0','0');
+INSERT INTO [t17885] VALUES (61,'كتاب العتق','3494','0','0');
+INSERT INTO [t17885] VALUES (62,'كتاب التدبير','3544','0','0');
+INSERT INTO [t17885] VALUES (63,'كتاب المكاتب','3557','0','0');
+INSERT INTO [t17885] VALUES (64,'كتاب عتق أمهات الأولاد','3623','0','0');
