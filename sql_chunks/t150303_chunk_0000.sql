@@ -1,0 +1,74 @@
+-- Table: t150303
+-- Chunk: 1
+-- Rows: 67
+
+CREATE TABLE "t150303" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t150303
+INSERT INTO [t150303] VALUES (1,'تقديم','1','0','0');
+INSERT INTO [t150303] VALUES (2,'الآية (١)','6','0','0');
+INSERT INTO [t150303] VALUES (3,'الآية (٢)','16','0','0');
+INSERT INTO [t150303] VALUES (4,'الآية (٣)','23','0','0');
+INSERT INTO [t150303] VALUES (5,'الآية (٤)','28','0','0');
+INSERT INTO [t150303] VALUES (6,'الآية (٥)','41','0','0');
+INSERT INTO [t150303] VALUES (7,'الآية (٦)','56','0','0');
+INSERT INTO [t150303] VALUES (8,'الآية (٧)','70','0','0');
+INSERT INTO [t150303] VALUES (9,'الآية (٨)','78','0','0');
+INSERT INTO [t150303] VALUES (10,'الآية (٩)','85','0','0');
+INSERT INTO [t150303] VALUES (11,'الآية (١٠)','95','0','0');
+INSERT INTO [t150303] VALUES (12,'الآية (١١)','100','0','0');
+INSERT INTO [t150303] VALUES (13,'الآية (١٢)','105','0','0');
+INSERT INTO [t150303] VALUES (14,'الآية (١٣)','109','0','0');
+INSERT INTO [t150303] VALUES (15,'الآية (١٤)','118','0','0');
+INSERT INTO [t150303] VALUES (16,'الآية (١٥)','123','0','0');
+INSERT INTO [t150303] VALUES (17,'الآية (١٦)','125','0','0');
+INSERT INTO [t150303] VALUES (18,'الآية (١٧)','131','0','0');
+INSERT INTO [t150303] VALUES (19,'الآية (١٨)','137','0','0');
+INSERT INTO [t150303] VALUES (20,'الآية (١٩)','142','0','0');
+INSERT INTO [t150303] VALUES (21,'الآية (٢٠)','151','0','0');
+INSERT INTO [t150303] VALUES (22,'الآية (٢١)','156','0','0');
+INSERT INTO [t150303] VALUES (23,'الآية (٢٢)','163','0','0');
+INSERT INTO [t150303] VALUES (24,'الآية (٢٣)','171','0','0');
+INSERT INTO [t150303] VALUES (25,'الآية (٢٤)','176','0','0');
+INSERT INTO [t150303] VALUES (26,'الآية (٢٥)','183','0','0');
+INSERT INTO [t150303] VALUES (27,'الآية (٢٦)','188','0','0');
+INSERT INTO [t150303] VALUES (28,'الآية (٢٧)','194','0','0');
+INSERT INTO [t150303] VALUES (29,'الآية (٢٨)','198','0','0');
+INSERT INTO [t150303] VALUES (30,'الآية (٢٩)','202','0','0');
+INSERT INTO [t150303] VALUES (31,'الآية (٣٠)','205','0','0');
+INSERT INTO [t150303] VALUES (32,'الآية (٣١)','208','0','0');
+INSERT INTO [t150303] VALUES (33,'الآية (٣٢)','212','0','0');
+INSERT INTO [t150303] VALUES (34,'الآية (٣٣)','220','0','0');
+INSERT INTO [t150303] VALUES (35,'الآية (٣٤)','241','0','0');
+INSERT INTO [t150303] VALUES (36,'الآية (٣٥)','249','0','0');
+INSERT INTO [t150303] VALUES (37,'الآية (٣٦)','281','0','0');
+INSERT INTO [t150303] VALUES (38,'الآية (٣٧)','293','0','0');
+INSERT INTO [t150303] VALUES (39,'الآية (٣٨)','304','0','0');
+INSERT INTO [t150303] VALUES (40,'الآية (٣٩)','308','0','0');
+INSERT INTO [t150303] VALUES (41,'الآية (٤٠)','311','0','0');
+INSERT INTO [t150303] VALUES (42,'الآيتان (٤١، ٤٢)','319','0','0');
+INSERT INTO [t150303] VALUES (43,'الآية (٤٣)','322','0','0');
+INSERT INTO [t150303] VALUES (44,'الآية (٤٤)','327','0','0');
+INSERT INTO [t150303] VALUES (45,'الآيتان (٤٥، ٤٦)','332','0','0');
+INSERT INTO [t150303] VALUES (46,'الآية (٤٧)','340','0','0');
+INSERT INTO [t150303] VALUES (47,'الآية (٤٨)','343','0','0');
+INSERT INTO [t150303] VALUES (48,'الآية (٤٩)','350','0','0');
+INSERT INTO [t150303] VALUES (49,'الآية (٥٠)','361','0','0');
+INSERT INTO [t150303] VALUES (50,'الآية (٥١)','389','0','0');
+INSERT INTO [t150303] VALUES (51,'الآية (٥٢)','402','0','0');
+INSERT INTO [t150303] VALUES (52,'الآيتان (٥٣، ٥٤)','410','0','0');
+INSERT INTO [t150303] VALUES (53,'الآية (٥٥)','444','0','0');
+INSERT INTO [t150303] VALUES (54,'الآية (٥٦)','454','0','0');
+INSERT INTO [t150303] VALUES (55,'الآية (٥٧)','468','0','0');
+INSERT INTO [t150303] VALUES (56,'الآية (٥٨)','473','0','0');
+INSERT INTO [t150303] VALUES (57,'الآية (٥٩)','476','0','0');
+INSERT INTO [t150303] VALUES (58,'الآية (٦٠ - ٦١)','488','0','0');
+INSERT INTO [t150303] VALUES (59,'الآية (٦٢)','498','0','0');
+INSERT INTO [t150303] VALUES (60,'الآية (٦٣)','501','0','0');
+INSERT INTO [t150303] VALUES (61,'الآيتان (٦٤، ٦٥)','506','0','0');
+INSERT INTO [t150303] VALUES (62,'الآية (٦٦)','510','0','0');
+INSERT INTO [t150303] VALUES (63,'الآيتان (٦٧، ٦٨)','514','0','0');
+INSERT INTO [t150303] VALUES (64,'الآية (٦٩)','519','0','0');
+INSERT INTO [t150303] VALUES (65,'الآيتان (٧٠، ٧١)','526','0','0');
+INSERT INTO [t150303] VALUES (66,'الآية (٧٢)','529','0','0');
+INSERT INTO [t150303] VALUES (67,'الآية (٧٣)','532','0','0');
