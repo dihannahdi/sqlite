@@ -1,0 +1,73 @@
+-- Table: t11539
+-- Chunk: 1
+-- Rows: 66
+
+CREATE TABLE "t11539" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t11539
+INSERT INTO [t11539] VALUES (1,'المجلد الأول','1','0','0');
+INSERT INTO [t11539] VALUES (2,'المقدمات','1','1','0');
+INSERT INTO [t11539] VALUES (3,'ترجمة الصبان','1','2','0');
+INSERT INTO [t11539] VALUES (4,'ترجمة الأشموني','2','2','0');
+INSERT INTO [t11539] VALUES (5,'مقدمة المؤلف','3','2','0');
+INSERT INTO [t11539] VALUES (6,'خطبة الكتاب','10','2','0');
+INSERT INTO [t11539] VALUES (7,'الكلام وما يتألف منه','28','1','0');
+INSERT INTO [t11539] VALUES (8,'المعرب والمبني','70','1','0');
+INSERT INTO [t11539] VALUES (9,'النكرة والمعرفة','153','1','0');
+INSERT INTO [t11539] VALUES (10,'العلم','185','1','0');
+INSERT INTO [t11539] VALUES (11,'اسم الإشارة','201','1','0');
+INSERT INTO [t11539] VALUES (12,'الموصول','209','1','0');
+INSERT INTO [t11539] VALUES (13,'المعرف بأداة التعريف','254','1','0');
+INSERT INTO [t11539] VALUES (14,'الابتداء','272','1','0');
+INSERT INTO [t11539] VALUES (15,'كان وأخواتها','328','1','0');
+INSERT INTO [t11539] VALUES (16,'مدخل','328','15','0');
+INSERT INTO [t11539] VALUES (17,'فصل في ما ولا ولات وإن المشبهات بليس','360','15','0');
+INSERT INTO [t11539] VALUES (18,'أفعال المقاربة','376','1','0');
+INSERT INTO [t11539] VALUES (19,'إن وأخواتها','393','1','0');
+INSERT INTO [t11539] VALUES (20,'الفهرس','432','1','0');
+INSERT INTO [t11539] VALUES (21,'المجلد الثاني','433','0','0');
+INSERT INTO [t11539] VALUES (22,'لا التي لنفي الجنس','433','21','0');
+INSERT INTO [t11539] VALUES (23,'ظن وأخواتها','456','21','0');
+INSERT INTO [t11539] VALUES (24,'الفاعل','488','21','0');
+INSERT INTO [t11539] VALUES (25,'النائب عن الفاعل','516','21','0');
+INSERT INTO [t11539] VALUES (26,'إشتغال العامل عن المعمول','531','21','0');
+INSERT INTO [t11539] VALUES (27,'تعدي الفعل ولزومه','554','21','0');
+INSERT INTO [t11539] VALUES (28,'التنازع في العمل','571','21','0');
+INSERT INTO [t11539] VALUES (29,'المفعول المطلق','588','21','0');
+INSERT INTO [t11539] VALUES (30,'المفعول له','608','21','0');
+INSERT INTO [t11539] VALUES (31,'المفعول معه','626','21','0');
+INSERT INTO [t11539] VALUES (32,'الاستثناء','637','21','0');
+INSERT INTO [t11539] VALUES (33,'الحال','679','21','0');
+INSERT INTO [t11539] VALUES (34,'التمييز','717','21','0');
+INSERT INTO [t11539] VALUES (35,'حروف الجر','785','21','0');
+INSERT INTO [t11539] VALUES (36,'الإضافة','786','21','0');
+INSERT INTO [t11539] VALUES (37,'المضاف إلى ياء المتكلم','853','21','0');
+INSERT INTO [t11539] VALUES (38,'إعمال المصدر','857','21','0');
+INSERT INTO [t11539] VALUES (39,'إعمال إسم الفاعل','872','21','0');
+INSERT INTO [t11539] VALUES (40,'أبنية المصادر','889','21','0');
+INSERT INTO [t11539] VALUES (41,'الفهرس','908','21','0');
+INSERT INTO [t11539] VALUES (42,'المجلد الثالث','909','0','0');
+INSERT INTO [t11539] VALUES (43,'الصفة المشبهة باسم الفاعل','909','42','0');
+INSERT INTO [t11539] VALUES (44,'التعجب','928','42','0');
+INSERT INTO [t11539] VALUES (45,'نعم وبئس وما جرى مجراهما','944','42','0');
+INSERT INTO [t11539] VALUES (46,'أفعل التفضيل','968','42','0');
+INSERT INTO [t11539] VALUES (47,'النعت','988','42','0');
+INSERT INTO [t11539] VALUES (48,'التوكيد','1013','42','0');
+INSERT INTO [t11539] VALUES (49,'العطف','1031','42','0');
+INSERT INTO [t11539] VALUES (50,'عطف النسق','1037','42','0');
+INSERT INTO [t11539] VALUES (51,'البدل','1089','42','0');
+INSERT INTO [t11539] VALUES (52,'النداء','1103','42','0');
+INSERT INTO [t11539] VALUES (53,'مدخل','1103','52','0');
+INSERT INTO [t11539] VALUES (54,'فصل: تابع المنادى ذي الضم المضاف دون أل','1124','52','0');
+INSERT INTO [t11539] VALUES (55,'المنادى المضاف إلى ياء المتكلم','1136','52','0');
+INSERT INTO [t11539] VALUES (56,'أسماء لازمت النداء','1142','52','0');
+INSERT INTO [t11539] VALUES (57,'الاستغاثة','1147','42','0');
+INSERT INTO [t11539] VALUES (58,'الندبة','1154','42','0');
+INSERT INTO [t11539] VALUES (59,'الترخيم','1160','42','0');
+INSERT INTO [t11539] VALUES (60,'الاختصاص','1180','42','0');
+INSERT INTO [t11539] VALUES (61,'التحذير والإغراء','1184','42','0');
+INSERT INTO [t11539] VALUES (62,'أسماء الأفعال والأصوات','1193','42','0');
+INSERT INTO [t11539] VALUES (63,'نونا التوكيد','1220','42','0');
+INSERT INTO [t11539] VALUES (64,'ما لا ينصرف','1241','42','0');
+INSERT INTO [t11539] VALUES (65,'إعراب الفعل','1311','42','0');
+INSERT INTO [t11539] VALUES (66,'الفهرس','1369','42','0');
