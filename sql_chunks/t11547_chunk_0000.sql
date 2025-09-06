@@ -1,0 +1,70 @@
+-- Table: t11547
+-- Chunk: 1
+-- Rows: 63
+
+CREATE TABLE "t11547" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t11547
+INSERT INTO [t11547] VALUES (1,'مقدمات','1','0','0');
+INSERT INTO [t11547] VALUES (2,'مقدمة الطبعة الرابعة','1','1','0');
+INSERT INTO [t11547] VALUES (3,'مقدمة المؤلف','2','1','0');
+INSERT INTO [t11547] VALUES (4,'قواعد أصولية','8','0','0');
+INSERT INTO [t11547] VALUES (5,'فائدة','11','0','0');
+INSERT INTO [t11547] VALUES (6,'سورة البقرة','12','0','0');
+INSERT INTO [t11547] VALUES (7,'سورة آل عمران','39','0','0');
+INSERT INTO [t11547] VALUES (8,'سورة النساء','58','0','0');
+INSERT INTO [t11547] VALUES (9,'سورة المائدة','78','0','0');
+INSERT INTO [t11547] VALUES (10,'سورة الأنعام','88','0','0');
+INSERT INTO [t11547] VALUES (11,'سورة الأعراف','90','0','0');
+INSERT INTO [t11547] VALUES (12,'سورة الأنفال','91','0','0');
+INSERT INTO [t11547] VALUES (13,'سورة التوبة','101','0','0');
+INSERT INTO [t11547] VALUES (14,'سورة هود','113','0','0');
+INSERT INTO [t11547] VALUES (15,'سورة يوسف','115','0','0');
+INSERT INTO [t11547] VALUES (16,'سورة الرعد','116','0','0');
+INSERT INTO [t11547] VALUES (17,'سورة ابراهيم','118','0','0');
+INSERT INTO [t11547] VALUES (18,'سورة النحل','119','0','0');
+INSERT INTO [t11547] VALUES (19,'سورة الإسراء','123','0','0');
+INSERT INTO [t11547] VALUES (20,'سورة مريم','128','0','0');
+INSERT INTO [t11547] VALUES (21,'سورة الأنبياء','130','0','0');
+INSERT INTO [t11547] VALUES (22,'سورة الحج','133','0','0');
+INSERT INTO [t11547] VALUES (23,'سورة المؤمنون','136','0','0');
+INSERT INTO [t11547] VALUES (24,'سورة النور','137','0','0');
+INSERT INTO [t11547] VALUES (25,'سورة الفرقان','148','0','0');
+INSERT INTO [t11547] VALUES (26,'سورة القصص','151','0','0');
+INSERT INTO [t11547] VALUES (27,'سورة العنكبوت','153','0','0');
+INSERT INTO [t11547] VALUES (28,'سورة لقمان','155','0','0');
+INSERT INTO [t11547] VALUES (29,'سورة السجدة','156','0','0');
+INSERT INTO [t11547] VALUES (30,'سورة الأحزاب','157','0','0');
+INSERT INTO [t11547] VALUES (31,'سورة يس','168','0','0');
+INSERT INTO [t11547] VALUES (32,'سورة الزمر','170','0','0');
+INSERT INTO [t11547] VALUES (33,'سورة فصلت','172','0','0');
+INSERT INTO [t11547] VALUES (34,'سورة الشورى','173','0','0');
+INSERT INTO [t11547] VALUES (35,'سورة الزخرف','175','0','0');
+INSERT INTO [t11547] VALUES (36,'سورة الدخان','177','0','0');
+INSERT INTO [t11547] VALUES (37,'سورة الجاثية','178','0','0');
+INSERT INTO [t11547] VALUES (38,'سورة الأحقاف','179','0','0');
+INSERT INTO [t11547] VALUES (39,'سورة الفتح','182','0','0');
+INSERT INTO [t11547] VALUES (40,'سورة الحجرات','192','0','0');
+INSERT INTO [t11547] VALUES (41,'سورة القمر','196','0','0');
+INSERT INTO [t11547] VALUES (42,'سورة الواقعة','198','0','0');
+INSERT INTO [t11547] VALUES (43,'سورة المجادلة','199','0','0');
+INSERT INTO [t11547] VALUES (44,'سورة الحشر','201','0','0');
+INSERT INTO [t11547] VALUES (45,'سورة الممتحنة','204','0','0');
+INSERT INTO [t11547] VALUES (46,'سورة الصف','207','0','0');
+INSERT INTO [t11547] VALUES (47,'سورة الجمعة','208','0','0');
+INSERT INTO [t11547] VALUES (48,'سورة المنافقون','209','0','0');
+INSERT INTO [t11547] VALUES (49,'سورة التغابن','211','0','0');
+INSERT INTO [t11547] VALUES (50,'سورة التحريم','212','0','0');
+INSERT INTO [t11547] VALUES (51,'سورة الجن','216','0','0');
+INSERT INTO [t11547] VALUES (52,'سورة المزمل','217','0','0');
+INSERT INTO [t11547] VALUES (53,'سورة المدثر','218','0','0');
+INSERT INTO [t11547] VALUES (54,'سورة القيامة','221','0','0');
+INSERT INTO [t11547] VALUES (55,'سورة النازعات','223','0','0');
+INSERT INTO [t11547] VALUES (56,'سورة عبس','225','0','0');
+INSERT INTO [t11547] VALUES (57,'سورة المطففين','227','0','0');
+INSERT INTO [t11547] VALUES (58,'سورة الضحى','228','0','0');
+INSERT INTO [t11547] VALUES (59,'سورة العلق','230','0','0');
+INSERT INTO [t11547] VALUES (60,'سورة الكوثر','232','0','0');
+INSERT INTO [t11547] VALUES (61,'سورة اللهب','233','0','0');
+INSERT INTO [t11547] VALUES (62,'أهم المراجع التي نقلت منها','234','0','0');
+INSERT INTO [t11547] VALUES (63,'فهرس الكتاب','235','0','0');
