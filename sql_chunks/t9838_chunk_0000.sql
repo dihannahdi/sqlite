@@ -1,0 +1,70 @@
+-- Table: t9838
+-- Chunk: 1
+-- Rows: 63
+
+CREATE TABLE "t9838" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t9838
+INSERT INTO [t9838] VALUES (1,'ترجمة المؤلف','2','0','0');
+INSERT INTO [t9838] VALUES (2,'خطبة الكتاب','6','0','0');
+INSERT INTO [t9838] VALUES (3,'-- كتاب المناسك:','9','0','0');
+INSERT INTO [t9838] VALUES (4,'-- فصل:','17','3','0');
+INSERT INTO [t9838] VALUES (5,'-- فصل:','26','3','0');
+INSERT INTO [t9838] VALUES (6,'-- فصل:','29','3','0');
+INSERT INTO [t9838] VALUES (7,'-- فصل:','30','3','0');
+INSERT INTO [t9838] VALUES (8,'-- فصل: في الاستنابة في الحج والعمرة:','36','3','0');
+INSERT INTO [t9838] VALUES (9,'-- فصل:','52','3','0');
+INSERT INTO [t9838] VALUES (10,'-- فصل:','53','3','0');
+INSERT INTO [t9838] VALUES (11,'-- باب المواقيت:','62','0','0');
+INSERT INTO [t9838] VALUES (12,'-- فصل:','71','11','0');
+INSERT INTO [t9838] VALUES (13,'-- باب:','82','0','0');
+INSERT INTO [t9838] VALUES (14,'-- فصل:','94','13','0');
+INSERT INTO [t9838] VALUES (15,'-- فصل:','112','13','0');
+INSERT INTO [t9838] VALUES (16,'-- فصل:','113','13','0');
+INSERT INTO [t9838] VALUES (17,'-- فصل:','118','13','0');
+INSERT INTO [t9838] VALUES (18,'-- فصل:','121','13','0');
+INSERT INTO [t9838] VALUES (19,'-- فصل:','127','13','0');
+INSERT INTO [t9838] VALUES (20,'-- فصل:','133','13','0');
+INSERT INTO [t9838] VALUES (21,'-- باب: محظورات الإحرام:','140','0','0');
+INSERT INTO [t9838] VALUES (22,'-- فصل:','185','21','0');
+INSERT INTO [t9838] VALUES (23,'- باب الفدية:','192','0','0');
+INSERT INTO [t9838] VALUES (24,'-- فصل:','210','23','0');
+INSERT INTO [t9838] VALUES (25,'-- فصل:','217','23','0');
+INSERT INTO [t9838] VALUES (26,'-- فصل:','220','23','0');
+INSERT INTO [t9838] VALUES (27,'-- باب جزاء الصيد:','223','0','0');
+INSERT INTO [t9838] VALUES (28,'-- باب: صيد حرمي مكة والمدينة ونباتهما:','232','0','0');
+INSERT INTO [t9838] VALUES (29,'-- فصل:','235','28','0');
+INSERT INTO [t9838] VALUES (30,'-- فصل:','238','28','0');
+INSERT INTO [t9838] VALUES (31,'-- فصل:','240','28','0');
+INSERT INTO [t9838] VALUES (32,'-- فصل:','247','28','0');
+INSERT INTO [t9838] VALUES (33,'-- فصل:','250','28','0');
+INSERT INTO [t9838] VALUES (34,'-- باب: دخول مكة وما يتعلق به من الطواف والسعي وغيره:','257','0','0');
+INSERT INTO [t9838] VALUES (35,'-- فصل:','304','34','0');
+INSERT INTO [t9838] VALUES (36,'-- فصل:','305','34','0');
+INSERT INTO [t9838] VALUES (37,'-- باب: صفة الحج والعمرة وما يتعلق بذلك:','317','0','0');
+INSERT INTO [t9838] VALUES (38,'باب المواقيت حكم ما إذا أراد من بمكة أو الحرم الحج مكيا كان أو غيره، قال شيخ الإسلام رحمه الله تعالى:','327','0','0');
+INSERT INTO [t9838] VALUES (39,'-- فصل:','354','38','0');
+INSERT INTO [t9838] VALUES (40,'-- فصل:','369','38','0');
+INSERT INTO [t9838] VALUES (41,'-- فصل:','388','38','0');
+INSERT INTO [t9838] VALUES (42,'-- فصل:','395','38','0');
+INSERT INTO [t9838] VALUES (43,'-- فصل:','406','38','0');
+INSERT INTO [t9838] VALUES (44,'-- فصل:','421','38','0');
+INSERT INTO [t9838] VALUES (45,'-- فصل:','443','38','0');
+INSERT INTO [t9838] VALUES (46,'-- فصل:','451','38','0');
+INSERT INTO [t9838] VALUES (47,'-- فصل:','461','38','0');
+INSERT INTO [t9838] VALUES (48,'-- فصل:','482','38','0');
+INSERT INTO [t9838] VALUES (49,'-- فصل:','489','38','0');
+INSERT INTO [t9838] VALUES (50,'-- فصل:','492','38','0');
+INSERT INTO [t9838] VALUES (51,'-- باب الإحصار والفوات وما يتعلق بهما:','495','0','0');
+INSERT INTO [t9838] VALUES (52,'-- فصل:','503','51','0');
+INSERT INTO [t9838] VALUES (53,'-- باب: الهدي والأضاحي وما يتعلق بهما:','520','0','0');
+INSERT INTO [t9838] VALUES (54,'-- فصل:','529','53','0');
+INSERT INTO [t9838] VALUES (55,'-- فصل:','533','53','0');
+INSERT INTO [t9838] VALUES (56,'-- فصل:','536','53','0');
+INSERT INTO [t9838] VALUES (57,'-- فصل:','539','53','0');
+INSERT INTO [t9838] VALUES (58,'-- فصل:','548','53','0');
+INSERT INTO [t9838] VALUES (59,'-- فصل:','557','53','0');
+INSERT INTO [t9838] VALUES (60,'-- فصل:','559','53','0');
+INSERT INTO [t9838] VALUES (61,'-- فصل:','561','53','0');
+INSERT INTO [t9838] VALUES (62,'-- فصل:','563','53','0');
+INSERT INTO [t9838] VALUES (63,'-- فصل:','568','53','0');
