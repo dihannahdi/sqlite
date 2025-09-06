@@ -1,0 +1,75 @@
+-- Table: t6896
+-- Chunk: 1
+-- Rows: 68
+
+CREATE TABLE "t6896" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t6896
+INSERT INTO [t6896] VALUES (1,'الاستشهاد','8','0','0');
+INSERT INTO [t6896] VALUES (2,'الاستشهاد','36','0','0');
+INSERT INTO [t6896] VALUES (3,'الاستشهاد','61','0','0');
+INSERT INTO [t6896] VALUES (4,'الاستشهاد','77','0','0');
+INSERT INTO [t6896] VALUES (5,'الاستشهاد','83','0','0');
+INSERT INTO [t6896] VALUES (6,'الاستشهاد','94','0','0');
+INSERT INTO [t6896] VALUES (7,'الاستشهاد','113','0','0');
+INSERT INTO [t6896] VALUES (8,'الاستشهاد','122','0','0');
+INSERT INTO [t6896] VALUES (9,'الاستشهاد','157','0','0');
+INSERT INTO [t6896] VALUES (10,'الاستشهاد','161','0','0');
+INSERT INTO [t6896] VALUES (11,'الاستشهاد','167','0','0');
+INSERT INTO [t6896] VALUES (12,'الاستشهاد','171','0','0');
+INSERT INTO [t6896] VALUES (13,'الاستشهاد','176','0','0');
+INSERT INTO [t6896] VALUES (14,'الاستشهاد','196','0','0');
+INSERT INTO [t6896] VALUES (15,'الاستشهاد','214','0','0');
+INSERT INTO [t6896] VALUES (16,'الاستشهاد','231','0','0');
+INSERT INTO [t6896] VALUES (17,'الفصل الأول فى الآباء','245','0','0');
+INSERT INTO [t6896] VALUES (18,'الاستشهاد','245','0','0');
+INSERT INTO [t6896] VALUES (19,'الفصل الثانى فى الأمهات','255','0','0');
+INSERT INTO [t6896] VALUES (20,'الاستشهاد','255','0','0');
+INSERT INTO [t6896] VALUES (21,'الفصل االثالث فى البنين','263','0','0');
+INSERT INTO [t6896] VALUES (22,'الاستشهاد','263','0','0');
+INSERT INTO [t6896] VALUES (23,'الفصل الرابع فى البنات','271','0','0');
+INSERT INTO [t6896] VALUES (24,'الاستشهاد','271','0','0');
+INSERT INTO [t6896] VALUES (25,'الاستشهاد','279','0','0');
+INSERT INTO [t6896] VALUES (26,'الاستشهاد','296','0','0');
+INSERT INTO [t6896] VALUES (27,'الاستشهاد','297','0','0');
+INSERT INTO [t6896] VALUES (28,'الاستشهاد','305','0','0');
+INSERT INTO [t6896] VALUES (29,'الاستشهاد','322','0','0');
+INSERT INTO [t6896] VALUES (30,'الاستشهاد','347','0','0');
+INSERT INTO [t6896] VALUES (31,'الاستشهاد','357','0','0');
+INSERT INTO [t6896] VALUES (32,'الاستشهاد','365','0','0');
+INSERT INTO [t6896] VALUES (33,'الاستشهاد','374','0','0');
+INSERT INTO [t6896] VALUES (34,'الاستشهاد','381','0','0');
+INSERT INTO [t6896] VALUES (35,'الاستشهاد','386','0','0');
+INSERT INTO [t6896] VALUES (36,'الاستشهاد','392','0','0');
+INSERT INTO [t6896] VALUES (37,'الاستشهاد','399','0','0');
+INSERT INTO [t6896] VALUES (38,'الاستشهاد','411','0','0');
+INSERT INTO [t6896] VALUES (39,'الاستشهاد','414','0','0');
+INSERT INTO [t6896] VALUES (40,'الاستشهاد','422','0','0');
+INSERT INTO [t6896] VALUES (41,'الاستشهاد','432','0','0');
+INSERT INTO [t6896] VALUES (42,'الاستشهاد','443','0','0');
+INSERT INTO [t6896] VALUES (43,'الاستشهاد','447','0','0');
+INSERT INTO [t6896] VALUES (44,'الاستشهاد','454','0','0');
+INSERT INTO [t6896] VALUES (45,'الاستشهاد','461','0','0');
+INSERT INTO [t6896] VALUES (46,'الاستشهاد','467','0','0');
+INSERT INTO [t6896] VALUES (47,'الاستشهاد','472','0','0');
+INSERT INTO [t6896] VALUES (48,'الاستشهاد','498','0','0');
+INSERT INTO [t6896] VALUES (49,'الاستشهاد','504','0','0');
+INSERT INTO [t6896] VALUES (50,'الاستشهاد','513','0','0');
+INSERT INTO [t6896] VALUES (51,'الاستشهاد','524','0','0');
+INSERT INTO [t6896] VALUES (52,'الاستشهاد','536','0','0');
+INSERT INTO [t6896] VALUES (53,'الاستشهاد','552','0','0');
+INSERT INTO [t6896] VALUES (54,'الاستشهاد','562','0','0');
+INSERT INTO [t6896] VALUES (55,'الاستشهاد','565','0','0');
+INSERT INTO [t6896] VALUES (56,'الاستشهاد','577','0','0');
+INSERT INTO [t6896] VALUES (57,'الاستشهاد','595','0','0');
+INSERT INTO [t6896] VALUES (58,'الاستشهاد','604','0','0');
+INSERT INTO [t6896] VALUES (59,'الاستشهاد','615','0','0');
+INSERT INTO [t6896] VALUES (60,'الاستشهاد','624','0','0');
+INSERT INTO [t6896] VALUES (61,'الاستشهاد','628','0','0');
+INSERT INTO [t6896] VALUES (62,'الاستشهاد','636','0','0');
+INSERT INTO [t6896] VALUES (63,'الاستشهاد','640','0','0');
+INSERT INTO [t6896] VALUES (64,'الاستشهاد','649','0','0');
+INSERT INTO [t6896] VALUES (65,'الاستشهاد','660','0','0');
+INSERT INTO [t6896] VALUES (66,'الاستشهاد','667','0','0');
+INSERT INTO [t6896] VALUES (67,'الاستشهاد','673','0','0');
+INSERT INTO [t6896] VALUES (68,'الاستشهاد','703','0','0');
