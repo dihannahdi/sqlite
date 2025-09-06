@@ -1,0 +1,35 @@
+-- Table: t13594
+-- Chunk: 1
+-- Rows: 28
+
+CREATE TABLE "t13594" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t13594
+INSERT INTO [t13594] VALUES (1,'مقدمة','1','0','0');
+INSERT INTO [t13594] VALUES (2,'١','4','0','0');
+INSERT INTO [t13594] VALUES (3,'٢','5','0','0');
+INSERT INTO [t13594] VALUES (4,'٣','6','0','0');
+INSERT INTO [t13594] VALUES (5,'٤','7','0','0');
+INSERT INTO [t13594] VALUES (6,'٥','8','0','0');
+INSERT INTO [t13594] VALUES (7,'٦','9','0','0');
+INSERT INTO [t13594] VALUES (8,'٧','10','0','0');
+INSERT INTO [t13594] VALUES (9,'٨','11','0','0');
+INSERT INTO [t13594] VALUES (10,'٩','12','0','0');
+INSERT INTO [t13594] VALUES (11,'١٠','13','0','0');
+INSERT INTO [t13594] VALUES (12,'١١','14','0','0');
+INSERT INTO [t13594] VALUES (13,'١٢','15','0','0');
+INSERT INTO [t13594] VALUES (14,'١٣','16','0','0');
+INSERT INTO [t13594] VALUES (15,'١٤','17','0','0');
+INSERT INTO [t13594] VALUES (16,'١٥','18','0','0');
+INSERT INTO [t13594] VALUES (17,'١٦','19','0','0');
+INSERT INTO [t13594] VALUES (18,'١٧','20','0','0');
+INSERT INTO [t13594] VALUES (19,'١٨','21','0','0');
+INSERT INTO [t13594] VALUES (20,'١٩','22','0','0');
+INSERT INTO [t13594] VALUES (21,'٢٠','23','0','0');
+INSERT INTO [t13594] VALUES (22,'٢١','24','0','0');
+INSERT INTO [t13594] VALUES (23,'٢٢','25','0','0');
+INSERT INTO [t13594] VALUES (24,'٢٣','26','0','0');
+INSERT INTO [t13594] VALUES (25,'٢٤','27','0','0');
+INSERT INTO [t13594] VALUES (26,'٢٥','28','0','0');
+INSERT INTO [t13594] VALUES (27,'٢٦','29','0','0');
+INSERT INTO [t13594] VALUES (28,'٢٧','30','0','0');
