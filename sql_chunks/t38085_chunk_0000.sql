@@ -1,0 +1,73 @@
+-- Table: t38085
+-- Chunk: 1
+-- Rows: 66
+
+CREATE TABLE "t38085" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t38085
+INSERT INTO [t38085] VALUES (1,'الإهداء','1','0','0');
+INSERT INTO [t38085] VALUES (2,'المقدمة','2','0','0');
+INSERT INTO [t38085] VALUES (3,'الكتاب الأول','4','0','0');
+INSERT INTO [t38085] VALUES (4,'مقدمات تمهيدية:','5','3','0');
+INSERT INTO [t38085] VALUES (5,'العمل الأدبى','5','4','0');
+INSERT INTO [t38085] VALUES (6,'مجال الأدب بين مظاهر الشعور','11','4','0');
+INSERT INTO [t38085] VALUES (7,'علوم البلاغة والنقد الأدبى','17','4','0');
+INSERT INTO [t38085] VALUES (8,'القراءة الأدبية','22','4','0');
+INSERT INTO [t38085] VALUES (9,'المنهج الأدبى في القرآن','32','4','0');
+INSERT INTO [t38085] VALUES (10,'إعجاز القرآن','39','4','0');
+INSERT INTO [t38085] VALUES (11,'الفصل الأول ألفاظ القرآن','45','3','0');
+INSERT INTO [t38085] VALUES (12,'البلاغة والنظم:','45','11','0');
+INSERT INTO [t38085] VALUES (13,'تخير اللفظ','47','11','0');
+INSERT INTO [t38085] VALUES (14,'الفاصلة','60','11','0');
+INSERT INTO [t38085] VALUES (15,'الغريب','70','11','0');
+INSERT INTO [t38085] VALUES (16,'المعرب','72','11','0');
+INSERT INTO [t38085] VALUES (17,'الزائد','74','11','0');
+INSERT INTO [t38085] VALUES (18,'الفصل الثانى الآية القرآنية','81','3','0');
+INSERT INTO [t38085] VALUES (19,'تكونها:','81','18','0');
+INSERT INTO [t38085] VALUES (20,'التقديم والتأخير','86','18','0');
+INSERT INTO [t38085] VALUES (21,'الذكر والحذف','91','18','0');
+INSERT INTO [t38085] VALUES (22,'التنكير والتعريف','98','18','0');
+INSERT INTO [t38085] VALUES (23,'الإفراد والتذكير وفروعهما','105','18','0');
+INSERT INTO [t38085] VALUES (24,'التوكيد والتكرير','108','18','0');
+INSERT INTO [t38085] VALUES (25,'القصر','117','18','0');
+INSERT INTO [t38085] VALUES (26,'الاستفهام','122','18','0');
+INSERT INTO [t38085] VALUES (27,'الأمر والنهى','125','18','0');
+INSERT INTO [t38085] VALUES (28,'التمنى والترجى','125','18','0');
+INSERT INTO [t38085] VALUES (29,'النداء','126','18','0');
+INSERT INTO [t38085] VALUES (30,'القسم','128','18','0');
+INSERT INTO [t38085] VALUES (31,'الفصل والوصل','130','18','0');
+INSERT INTO [t38085] VALUES (32,'بدائع القرآن','136','18','0');
+INSERT INTO [t38085] VALUES (33,'التشبيه في القرآن','141','18','0');
+INSERT INTO [t38085] VALUES (34,'"كذلك" فى القرآن الكريم','159','18','0');
+INSERT INTO [t38085] VALUES (35,'التصوير بالاستعارة','162','18','0');
+INSERT INTO [t38085] VALUES (36,'مجازات القرآن','167','18','0');
+INSERT INTO [t38085] VALUES (37,'الكناية والتعريض','169','18','0');
+INSERT INTO [t38085] VALUES (38,'الفصل الثالث السورة','171','3','0');
+INSERT INTO [t38085] VALUES (39,'الفصل الرابع أسلوب القرآن','182','3','0');
+INSERT INTO [t38085] VALUES (40,'الكتاب الثانى','187','0','0');
+INSERT INTO [t38085] VALUES (41,'الفصل الأول المعانى القرآنية','188','40','0');
+INSERT INTO [t38085] VALUES (42,'الله','188','41','0');
+INSERT INTO [t38085] VALUES (43,'محمد','199','41','0');
+INSERT INTO [t38085] VALUES (44,'القرآن','208','41','0');
+INSERT INTO [t38085] VALUES (45,'يوم القيامة','214','41','0');
+INSERT INTO [t38085] VALUES (46,'الجنة','222','41','0');
+INSERT INTO [t38085] VALUES (47,'النار','226','41','0');
+INSERT INTO [t38085] VALUES (48,'الجهاد','230','41','0');
+INSERT INTO [t38085] VALUES (49,'المعارك الحربية','237','41','0');
+INSERT INTO [t38085] VALUES (50,'الإنسان المثالى','244','41','0');
+INSERT INTO [t38085] VALUES (51,'الحياة الدنيا','248','41','0');
+INSERT INTO [t38085] VALUES (52,'عبادة الأوثان','250','41','0');
+INSERT INTO [t38085] VALUES (53,'العقائد والعبادات','252','41','0');
+INSERT INTO [t38085] VALUES (54,'الأحكام','258','41','0');
+INSERT INTO [t38085] VALUES (55,'مظاهر الطبيعة','261','41','0');
+INSERT INTO [t38085] VALUES (56,'المدح','265','41','0');
+INSERT INTO [t38085] VALUES (57,'الهجاء','266','41','0');
+INSERT INTO [t38085] VALUES (58,'العتاب','268','41','0');
+INSERT INTO [t38085] VALUES (59,'مصرفى القرآن','269','41','0');
+INSERT INTO [t38085] VALUES (60,'القصة في القرآن','271','41','0');
+INSERT INTO [t38085] VALUES (61,'الجدل','276','41','0');
+INSERT INTO [t38085] VALUES (62,'الابتهال','279','41','0');
+INSERT INTO [t38085] VALUES (63,'بعض صور الحياة الجاهلية','280','41','0');
+INSERT INTO [t38085] VALUES (64,'الفصل الثانى موازنات','286','40','0');
+INSERT INTO [t38085] VALUES (65,'خاتمة','295','0','0');
+INSERT INTO [t38085] VALUES (66,'مراجع البحث','296','0','0');
