@@ -1,0 +1,75 @@
+-- Table: t27084
+-- Chunk: 1
+-- Rows: 68
+
+CREATE TABLE "t27084" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t27084
+INSERT INTO [t27084] VALUES (1,'مقدمة الناشر','1','0','0');
+INSERT INTO [t27084] VALUES (2,'حرف الألف','5','0','0');
+INSERT INTO [t27084] VALUES (3,'من اسمه أبان','5','2','0');
+INSERT INTO [t27084] VALUES (4,'من اسمه إبراهيم','5','2','0');
+INSERT INTO [t27084] VALUES (5,'ابن دريد بقره','25','2','0');
+INSERT INTO [t27084] VALUES (6,'من اسمه أحمد','29','2','0');
+INSERT INTO [t27084] VALUES (7,'من اسمه إسحاق','105','2','0');
+INSERT INTO [t27084] VALUES (8,'من اسمه إسماعيل','107','2','0');
+INSERT INTO [t27084] VALUES (9,'حرف الباء الموحدة','119','0','0');
+INSERT INTO [t27084] VALUES (10,'من اسمه بشر','119','9','0');
+INSERT INTO [t27084] VALUES (11,'من اسمه بشير','119','9','0');
+INSERT INTO [t27084] VALUES (12,'من اسمه بقي','120','9','0');
+INSERT INTO [t27084] VALUES (13,'من اسمه بكر','121','9','0');
+INSERT INTO [t27084] VALUES (14,'من اسمه بكير','124','9','0');
+INSERT INTO [t27084] VALUES (15,'حرف الثاء','128','0','0');
+INSERT INTO [t27084] VALUES (16,'حرف الجيم','129','0','0');
+INSERT INTO [t27084] VALUES (17,'من اسمه جبير','129','16','0');
+INSERT INTO [t27084] VALUES (18,'من اسمه جعفر','129','16','0');
+INSERT INTO [t27084] VALUES (19,'من اسمه الجنيد','131','16','0');
+INSERT INTO [t27084] VALUES (20,'حرف الحاء','133','0','0');
+INSERT INTO [t27084] VALUES (21,'من اسمه الحارث','133','20','0');
+INSERT INTO [t27084] VALUES (22,'من اسمه حجاج','133','20','0');
+INSERT INTO [t27084] VALUES (23,'من اسمه حسان','134','20','0');
+INSERT INTO [t27084] VALUES (24,'من اسمه الحسن','134','20','0');
+INSERT INTO [t27084] VALUES (25,'من اسمه الحسين','153','20','0');
+INSERT INTO [t27084] VALUES (26,'من اسمه حفص','167','20','0');
+INSERT INTO [t27084] VALUES (27,'حرف الخاء','169','0','0');
+INSERT INTO [t27084] VALUES (28,'من اسمه الخضر','169','27','0');
+INSERT INTO [t27084] VALUES (29,'من اسمه خلف','169','27','0');
+INSERT INTO [t27084] VALUES (30,'من اسمه الخليل','171','27','0');
+INSERT INTO [t27084] VALUES (31,'حرف الدال','173','0','0');
+INSERT INTO [t27084] VALUES (32,'حرف الذال','177','0','0');
+INSERT INTO [t27084] VALUES (33,'حرف الراء','178','0','0');
+INSERT INTO [t27084] VALUES (34,'حرف الزاي','183','0','0');
+INSERT INTO [t27084] VALUES (35,'حرف السين المهملة','187','0','0');
+INSERT INTO [t27084] VALUES (36,'من اسمه سعد','187','35','0');
+INSERT INTO [t27084] VALUES (37,'من اسمه سعيد','188','35','0');
+INSERT INTO [t27084] VALUES (38,'من اسمه سفيان','195','35','0');
+INSERT INTO [t27084] VALUES (39,'من اسمه سلمان','200','35','0');
+INSERT INTO [t27084] VALUES (40,'من اسمه سليم','204','35','0');
+INSERT INTO [t27084] VALUES (41,'من اسمه سليمان','205','35','0');
+INSERT INTO [t27084] VALUES (42,'حرف الشين المعجمة','220','0','0');
+INSERT INTO [t27084] VALUES (43,'حرف الصاد المهملة','221','0','0');
+INSERT INTO [t27084] VALUES (44,'حرف الضاد المعجمة','224','0','0');
+INSERT INTO [t27084] VALUES (45,'حرف الطاء المهملة','228','0','0');
+INSERT INTO [t27084] VALUES (46,'حرف العين المهملة','230','0','0');
+INSERT INTO [t27084] VALUES (47,'من اسمه عبد الجبار','264','46','0');
+INSERT INTO [t27084] VALUES (48,'ذكر من اسمه عبد الرحيم وما بعده','300','46','0');
+INSERT INTO [t27084] VALUES (49,'ذكر من اسمه عبيد الله مصغرا','377','46','0');
+INSERT INTO [t27084] VALUES (50,'من اسمه عثمان','380','46','0');
+INSERT INTO [t27084] VALUES (51,'من اسمه علي','390','46','0');
+INSERT INTO [t27084] VALUES (52,'تتمة حرف العين','445','0','0');
+INSERT INTO [t27084] VALUES (53,'من اسمه عمر','445','52','0');
+INSERT INTO [t27084] VALUES (54,'ذكر من اسمه عمرو','458','52','0');
+INSERT INTO [t27084] VALUES (55,'من اسمه عمران','463','52','0');
+INSERT INTO [t27084] VALUES (56,'من اسمه عياض','463','52','0');
+INSERT INTO [t27084] VALUES (57,'حرف الغين المعجمة','468','0','0');
+INSERT INTO [t27084] VALUES (58,'حرف الفاء','470','0','0');
+INSERT INTO [t27084] VALUES (59,'من اسمه الفضل','474','58','0');
+INSERT INTO [t27084] VALUES (60,'حرف القاف','477','0','0');
+INSERT INTO [t27084] VALUES (61,'حرف الميم','492','0','0');
+INSERT INTO [t27084] VALUES (62,'من اسمه محمد','492','61','0');
+INSERT INTO [t27084] VALUES (63,'ذكره من اسم والده الحسين','580','61','0');
+INSERT INTO [t27084] VALUES (64,'ذكر بقية حرف الميم على الترتيب','736','61','0');
+INSERT INTO [t27084] VALUES (65,'حرف النون','787','0','0');
+INSERT INTO [t27084] VALUES (66,'حرف الهاء','790','0','0');
+INSERT INTO [t27084] VALUES (67,'حرف الواو','799','0','0');
+INSERT INTO [t27084] VALUES (68,'حرف الياء','804','0','0');
