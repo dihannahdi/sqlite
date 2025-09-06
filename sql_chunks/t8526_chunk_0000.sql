@@ -1,0 +1,75 @@
+-- Table: t8526
+-- Chunk: 1
+-- Rows: 68
+
+CREATE TABLE "t8526" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t8526
+INSERT INTO [t8526] VALUES (1,'مقدمة','1','0','0');
+INSERT INTO [t8526] VALUES (2,'القاعدة ١','3','0','0');
+INSERT INTO [t8526] VALUES (3,'القاعدة ٢','19','0','0');
+INSERT INTO [t8526] VALUES (4,'القاعدة ٣','38','0','0');
+INSERT INTO [t8526] VALUES (5,'القاعدة ٤','43','0','0');
+INSERT INTO [t8526] VALUES (6,'القاعدة ٥','46','0','0');
+INSERT INTO [t8526] VALUES (7,'القاعدة ٦','50','0','0');
+INSERT INTO [t8526] VALUES (8,'القاعدة ٧','62','0','0');
+INSERT INTO [t8526] VALUES (9,'القاعدة ٨','73','0','0');
+INSERT INTO [t8526] VALUES (10,'القاعدة ٩','78','0','0');
+INSERT INTO [t8526] VALUES (11,'القاعدة ١٠','80','0','0');
+INSERT INTO [t8526] VALUES (12,'القاعدة ١١','82','0','0');
+INSERT INTO [t8526] VALUES (13,'القاعدة ١٢','87','0','0');
+INSERT INTO [t8526] VALUES (14,'القاعدة ١٣','89','0','0');
+INSERT INTO [t8526] VALUES (15,'القاعدة ١٤','91','0','0');
+INSERT INTO [t8526] VALUES (16,'القاعدة ١٥','96','0','0');
+INSERT INTO [t8526] VALUES (17,'القاعدة ١٦','104','0','0');
+INSERT INTO [t8526] VALUES (18,'القاعدة ١٧','116','0','0');
+INSERT INTO [t8526] VALUES (19,'القاعدة ١٨','129','0','0');
+INSERT INTO [t8526] VALUES (20,'القاعدة ١٩','132','0','0');
+INSERT INTO [t8526] VALUES (21,'القاعدة ٢٠','134','0','0');
+INSERT INTO [t8526] VALUES (22,'القاعدة ٢١','138','0','0');
+INSERT INTO [t8526] VALUES (23,'القاعدة ٢٢','143','0','0');
+INSERT INTO [t8526] VALUES (24,'القاعدة ٢٣','150','0','0');
+INSERT INTO [t8526] VALUES (25,'القاعدة ٢٤','151','0','0');
+INSERT INTO [t8526] VALUES (26,'القاعدة ٢٥','153','0','0');
+INSERT INTO [t8526] VALUES (27,'القاعدة ٢٦','156','0','0');
+INSERT INTO [t8526] VALUES (28,'القاعدة ٢٧','158','0','0');
+INSERT INTO [t8526] VALUES (29,'القاعدة ٢٨','160','0','0');
+INSERT INTO [t8526] VALUES (30,'القاعدة ٢٩','165','0','0');
+INSERT INTO [t8526] VALUES (31,'القاعدة ٣٠','173','0','0');
+INSERT INTO [t8526] VALUES (32,'القاعدة ٣١','175','0','0');
+INSERT INTO [t8526] VALUES (33,'القاعدة ٣٢','177','0','0');
+INSERT INTO [t8526] VALUES (34,'القاعدة ٣٣','179','0','0');
+INSERT INTO [t8526] VALUES (35,'القاعدة ٣٤','183','0','0');
+INSERT INTO [t8526] VALUES (36,'القاعدة ٣٥','184','0','0');
+INSERT INTO [t8526] VALUES (37,'القاعدة ٣٦','191','0','0');
+INSERT INTO [t8526] VALUES (38,'القاعدة ٣٧','193','0','0');
+INSERT INTO [t8526] VALUES (39,'القاعدة ٣٨','197','0','0');
+INSERT INTO [t8526] VALUES (40,'القاعدة ٣٩','199','0','0');
+INSERT INTO [t8526] VALUES (41,'القاعدة ٤٠','200','0','0');
+INSERT INTO [t8526] VALUES (42,'القاعدة ٤١','203','0','0');
+INSERT INTO [t8526] VALUES (43,'القاعدة ٤٢','205','0','0');
+INSERT INTO [t8526] VALUES (44,'القاعدة ٤٣','207','0','0');
+INSERT INTO [t8526] VALUES (45,'القاعدة ٤٤','214','0','0');
+INSERT INTO [t8526] VALUES (46,'القاعدة ٤٥','219','0','0');
+INSERT INTO [t8526] VALUES (47,'القاعدة ٤٦','221','0','0');
+INSERT INTO [t8526] VALUES (48,'القاعدة ٤٧','230','0','0');
+INSERT INTO [t8526] VALUES (49,'القاعدة ٤٨','236','0','0');
+INSERT INTO [t8526] VALUES (50,'القاعدة ٤٩','239','0','0');
+INSERT INTO [t8526] VALUES (51,'القاعدة ٥٠','243','0','0');
+INSERT INTO [t8526] VALUES (52,'القاعدة ٥١','245','0','0');
+INSERT INTO [t8526] VALUES (53,'القاعدة ٥٢','251','0','0');
+INSERT INTO [t8526] VALUES (54,'القاعدة ٥٣','258','0','0');
+INSERT INTO [t8526] VALUES (55,'القاعدة ٥٤','260','0','0');
+INSERT INTO [t8526] VALUES (56,'القاعدة ٥٥','263','0','0');
+INSERT INTO [t8526] VALUES (57,'القاعدة ٥٦','264','0','0');
+INSERT INTO [t8526] VALUES (58,'القاعدة ٥٧','266','0','0');
+INSERT INTO [t8526] VALUES (59,'القاعدة ٥٨','268','0','0');
+INSERT INTO [t8526] VALUES (60,'القاعدة ٥٩','271','0','0');
+INSERT INTO [t8526] VALUES (61,'القاعدة ٦٠','301','0','0');
+INSERT INTO [t8526] VALUES (62,'القاعدة ٦١','304','0','0');
+INSERT INTO [t8526] VALUES (63,'القاعدة ٦٢','311','0','0');
+INSERT INTO [t8526] VALUES (64,'القاعدة ٦٣','338','0','0');
+INSERT INTO [t8526] VALUES (65,'القاعدة ٦٤','346','0','0');
+INSERT INTO [t8526] VALUES (66,'القاعدة ٦٥','353','0','0');
+INSERT INTO [t8526] VALUES (67,'القاعدة ٦٦','362','0','0');
+INSERT INTO [t8526] VALUES (68,'الفوائد الملحقة بآخر القواعد','369','0','0');
