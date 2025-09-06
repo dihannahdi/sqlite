@@ -1,0 +1,37 @@
+-- Table: t10734
+-- Chunk: 1
+-- Rows: 30
+
+CREATE TABLE "t10734" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t10734
+INSERT INTO [t10734] VALUES (1,'مقدمة المؤلف','1','0','0');
+INSERT INTO [t10734] VALUES (2,'آ','1','0','0');
+INSERT INTO [t10734] VALUES (3,'أ','3','0','0');
+INSERT INTO [t10734] VALUES (4,'ب','52','0','0');
+INSERT INTO [t10734] VALUES (5,'ت','62','0','0');
+INSERT INTO [t10734] VALUES (6,'ث','103','0','0');
+INSERT INTO [t10734] VALUES (7,'ج','104','0','0');
+INSERT INTO [t10734] VALUES (8,'ح المهملة','118','0','0');
+INSERT INTO [t10734] VALUES (9,'خ','126','0','0');
+INSERT INTO [t10734] VALUES (10,'د','131','0','0');
+INSERT INTO [t10734] VALUES (11,'ذ','140','0','0');
+INSERT INTO [t10734] VALUES (12,'ر','143','0','0');
+INSERT INTO [t10734] VALUES (13,'ز','150','0','0');
+INSERT INTO [t10734] VALUES (14,'س','155','0','0');
+INSERT INTO [t10734] VALUES (15,'ش','166','0','0');
+INSERT INTO [t10734] VALUES (16,'ص','176','0','0');
+INSERT INTO [t10734] VALUES (17,'ض','180','0','0');
+INSERT INTO [t10734] VALUES (18,'ط','182','0','0');
+INSERT INTO [t10734] VALUES (19,'ع المهملة','187','0','0');
+INSERT INTO [t10734] VALUES (20,'غ','201','0','0');
+INSERT INTO [t10734] VALUES (21,'ف','206','0','0');
+INSERT INTO [t10734] VALUES (22,'ق','217','0','0');
+INSERT INTO [t10734] VALUES (23,'ك','223','0','0');
+INSERT INTO [t10734] VALUES (24,'ك الفارسية','236','0','0');
+INSERT INTO [t10734] VALUES (25,'ل','237','0','0');
+INSERT INTO [t10734] VALUES (26,'م','242','0','0');
+INSERT INTO [t10734] VALUES (27,'ن','290','0','0');
+INSERT INTO [t10734] VALUES (28,'هـ','301','0','0');
+INSERT INTO [t10734] VALUES (29,'و','304','0','0');
+INSERT INTO [t10734] VALUES (30,'ي','309','0','0');
