@@ -1,0 +1,76 @@
+-- Table: t1426
+-- Chunk: 1
+-- Rows: 69
+
+CREATE TABLE "t1426" (id INTEGER PRIMARY KEY, content TEXT, page TEXT, parent TEXT, is_deleted TEXT);
+
+-- Insert data for t1426
+INSERT INTO [t1426] VALUES (1,'مقدمة وتعريف','3','0','0');
+INSERT INTO [t1426] VALUES (2,'العنصر الأول: مقدمة تشمل','3','1','0');
+INSERT INTO [t1426] VALUES (3,'العنصر الثاني: تعريف موجز بالإمام ابن أبي العز','6','1','0');
+INSERT INTO [t1426] VALUES (4,'سورة الفاتحة','14','0','0');
+INSERT INTO [t1426] VALUES (5,'سورة البقرة','17','0','0');
+INSERT INTO [t1426] VALUES (6,'سورة آل عمران','35','0','0');
+INSERT INTO [t1426] VALUES (7,'سورة النساء','54','0','0');
+INSERT INTO [t1426] VALUES (8,'سورة المائدة','55','0','0');
+INSERT INTO [t1426] VALUES (9,'سورة الأنعام','61','0','0');
+INSERT INTO [t1426] VALUES (10,'سورة الأعراف','67','0','0');
+INSERT INTO [t1426] VALUES (11,'سورة الأعراف','79','0','0');
+INSERT INTO [t1426] VALUES (12,'سورة التوبة','80','0','0');
+INSERT INTO [t1426] VALUES (13,'سورة يونس','87','0','0');
+INSERT INTO [t1426] VALUES (14,'سورة هود','91','0','0');
+INSERT INTO [t1426] VALUES (15,'سورة يوسف','94','0','0');
+INSERT INTO [t1426] VALUES (16,'سورة هود','95','0','0');
+INSERT INTO [t1426] VALUES (17,'سورة النحل','100','0','0');
+INSERT INTO [t1426] VALUES (18,'سورة الإسراء','102','0','0');
+INSERT INTO [t1426] VALUES (19,'سورة الكهف','104','0','0');
+INSERT INTO [t1426] VALUES (20,'سورة مريم','105','0','0');
+INSERT INTO [t1426] VALUES (21,'سورة طه','107','0','0');
+INSERT INTO [t1426] VALUES (22,'سورة الأنبياء','108','0','0');
+INSERT INTO [t1426] VALUES (23,'سورة المؤمنون','109','0','0');
+INSERT INTO [t1426] VALUES (24,'سورة النور','111','0','0');
+INSERT INTO [t1426] VALUES (25,'سورة الفرقان','113','0','0');
+INSERT INTO [t1426] VALUES (26,'سورة الشعراء','114','0','0');
+INSERT INTO [t1426] VALUES (27,'سورة النمل','118','0','0');
+INSERT INTO [t1426] VALUES (28,'سورة القصص','120','0','0');
+INSERT INTO [t1426] VALUES (29,'سورة السجدة','123','0','0');
+INSERT INTO [t1426] VALUES (30,'سورة الأحزاب','124','0','0');
+INSERT INTO [t1426] VALUES (31,'سورة سبأ','126','0','0');
+INSERT INTO [t1426] VALUES (32,'سورة فاطر','127','0','0');
+INSERT INTO [t1426] VALUES (33,'سورة يس','129','0','0');
+INSERT INTO [t1426] VALUES (34,'سورة الصافات','131','0','0');
+INSERT INTO [t1426] VALUES (35,'سورة ص','133','0','0');
+INSERT INTO [t1426] VALUES (36,'سورة الزمر','135','0','0');
+INSERT INTO [t1426] VALUES (37,'سورة غافر','136','0','0');
+INSERT INTO [t1426] VALUES (38,'سورة فصلت','137','0','0');
+INSERT INTO [t1426] VALUES (39,'سورة الشورى','138','0','0');
+INSERT INTO [t1426] VALUES (40,'سورة الزخرف','141','0','0');
+INSERT INTO [t1426] VALUES (41,'سورة الجاثية','143','0','0');
+INSERT INTO [t1426] VALUES (42,'سورة الأحقاف','144','0','0');
+INSERT INTO [t1426] VALUES (43,'سورة الفتح','145','0','0');
+INSERT INTO [t1426] VALUES (44,'سورة الحجرات','147','0','0');
+INSERT INTO [t1426] VALUES (45,'سورة ق','149','0','0');
+INSERT INTO [t1426] VALUES (46,'سورة الطور','150','0','0');
+INSERT INTO [t1426] VALUES (47,'سورة النجم','151','0','0');
+INSERT INTO [t1426] VALUES (48,'سورة الرحمن','153','0','0');
+INSERT INTO [t1426] VALUES (49,'سورة الحديد','154','0','0');
+INSERT INTO [t1426] VALUES (50,'سورة المجادلة','156','0','0');
+INSERT INTO [t1426] VALUES (51,'سورة الحشر','157','0','0');
+INSERT INTO [t1426] VALUES (52,'سورة الطلاق','160','0','0');
+INSERT INTO [t1426] VALUES (53,'سورة القلم','162','0','0');
+INSERT INTO [t1426] VALUES (54,'سورة نوح','163','0','0');
+INSERT INTO [t1426] VALUES (55,'سورة الجن','165','0','0');
+INSERT INTO [t1426] VALUES (56,'سورة المزمل','166','0','0');
+INSERT INTO [t1426] VALUES (57,'سورة المدثر','167','0','0');
+INSERT INTO [t1426] VALUES (58,'سورة القيامة','170','0','0');
+INSERT INTO [t1426] VALUES (59,'سورة الدهر','173','0','0');
+INSERT INTO [t1426] VALUES (60,'سورة النبأ','176','0','0');
+INSERT INTO [t1426] VALUES (61,'سورة النازعات','177','0','0');
+INSERT INTO [t1426] VALUES (62,'سورة عبس','178','0','0');
+INSERT INTO [t1426] VALUES (63,'سورة التكوير','179','0','0');
+INSERT INTO [t1426] VALUES (64,'سورة الإنشقاق','180','0','0');
+INSERT INTO [t1426] VALUES (65,'سورة البروج','182','0','0');
+INSERT INTO [t1426] VALUES (66,'سورة البينة','184','0','0');
+INSERT INTO [t1426] VALUES (67,'سورة الكوثر','187','0','0');
+INSERT INTO [t1426] VALUES (68,'الخاتمة','188','0','0');
+INSERT INTO [t1426] VALUES (69,'مصادر ومراجع','189','0','0');
