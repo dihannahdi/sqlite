@@ -1,13 +1,13 @@
 # Nahdlatul Ulama AI: Comprehensive Development Plan
 **Project**: AI-Powered Islamic Jurisprudence System with NU Methodology  
 **Co-Founder Development Roadmap**  
-**Technologies**: TinyLlama, Ollama, Railway, Knowledge Graphs, RAG  
+**Technologies**: Qwen2.5-1.5B-Instruct, Ollama, Railway, Knowledge Graphs, RAG  
 
 ---
 
 ## 🎯 Project Vision
 
-Create a **completely free** and efficient Islamic jurisprudence system that leverages Nahdlatul Ulama's traditional istinbath methodology with the most resource-efficient AI technologies. The system prioritizes Islamic accuracy, scholar verification, and ultra-low-cost deployment on Railway's infrastructure using TinyLlama-1.1B-Chat model.
+Create a **completely free** and efficient Islamic jurisprudence system that leverages Nahdlatul Ulama's traditional istinbath methodology with the most resource-efficient AI technologies. The system prioritizes Islamic accuracy, scholar verification, and ultra-low-cost deployment on Railway's infrastructure using **Qwen2.5-1.5B-Instruct** model.
 
 ## 🏗️ Ultra-Efficient Architecture Overview
 
@@ -17,7 +17,7 @@ Create a **completely free** and efficient Islamic jurisprudence system that lev
 ├─────────────────────────────────────────────────────────────┤
 │               Mushoheh Verification Layer                  │
 ├─────────────────────────────────────────────────────────────┤
-│          Islamic RAG + TinyLlama-1.1B (Ollama/Local)       │
+│        Islamic RAG + Qwen2.5-1.5B (Ollama/Railway)        │
 ├─────────────────────────────────────────────────────────────┤
 │              NU Methodology Engine                         │
 ├─────────────────────────────────────────────────────────────┤
@@ -29,58 +29,58 @@ Create a **completely free** and efficient Islamic jurisprudence system that lev
 ```
 
 **Key Architecture - Pure Railway Stack:**
-- **100% Free LLM**: TinyLlama-1.1B-Chat (13M downloads, production-ready)
-- **Railway-Perfect**: 1-2GB RAM requirement vs BitNet's GPU needs
+- **100% Free LLM**: Qwen2.5-1.5B-Instruct (Apache 2.0 License, production-ready)
+- **Railway-Perfect**: 3-4GB RAM requirement, optimized for Railway Pro
 - **CPU-Only**: No expensive GPU infrastructure required
 - **Ollama Deployment**: Containerized model serving on Railway
-- **Pure Railway**: PostgreSQL + Ollama service, no external dependencies
-- **Cost**: ~$15/month total (Railway only)
+- **Pure Railway**: PostgreSQL + Ollama service + Web service, no external dependencies
+- **Cost**: ~$20/month total (Railway Pro only)
 
 ---
 
-## 📋 Phase 1: Railway + Ollama + TinyLlama Setup (Months 1-2)
+## 📋 Phase 1: Railway + Ollama + Qwen2.5-1.5B Setup (Months 1-2) ✅ COMPLETED
 
-### 1.1 Pure Railway Setup
+### 1.1 Pure Railway Setup ✅ COMPLETED
 **Timeline**: 1 week
 
 **Objectives**:
-- Deploy Railway with basic PostgreSQL
-- Set up Ollama container with TinyLlama-1.1B-Chat
-- Pure Railway architecture with no external dependencies
+- Deploy Railway with basic PostgreSQL ✅
+- Set up Ollama container with Qwen2.5-1.5B-Instruct ✅  
+- Pure Railway architecture with no external dependencies ✅
 
 **Railway-Only Implementation**:
 ```bash
-# Railway CLI Setup - Professional Plan for Ollama
+# Railway CLI Setup - Professional Plan for Ollama ✅
 npm install -g @railway/cli
 railway login
 railway init nahdlatul-ulama-ai
 
-# PostgreSQL Database Service
+# PostgreSQL Database Service ✅
 railway add -d postgres
 
-# Ollama Service for TinyLlama
+# Ollama Service for Qwen2.5 ✅
 railway add
 # Select 'Empty Service' 
-# Name: ollama-tinyllama-service
+# Name: ollama-smollm-service
 ```
 
-**TinyLlama Deployment on Railway**:
+**Qwen2.5-1.5B Deployment on Railway** ✅:
 ```dockerfile
-# Dockerfile for Ollama + TinyLlama on Railway
+# Dockerfile for Ollama + Qwen2.5 on Railway
 FROM ollama/ollama:latest
 
 # Railway environment
 ENV PORT=8000
 ENV OLLAMA_HOST=0.0.0.0:$PORT
 
-# Download TinyLlama-1.1B-Chat (ultra-lightweight)
-RUN ollama pull tinyllama
+# Download Qwen2.5-1.5B-Instruct (optimized for Railway)
+RUN ollama pull qwen2.5:1.5b
 
 # Start Ollama server
 CMD ["ollama", "serve"]
 ```
 
-**Pure Railway Islamic RAG System**:
+**Pure Railway Islamic RAG System** ✅:
 ```python
 # railway_islamic_rag.py - Pure Railway implementation
 import requests
