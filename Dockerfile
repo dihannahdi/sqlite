@@ -1,4 +1,4 @@
-# Dockerfile for Ollama SmolLM2 Service on Railway
+# Dockerfile for Ollama Qwen2.5 Service on Railway
 FROM ollama/ollama:latest
 
 # Set environment variables
@@ -12,5 +12,5 @@ EXPOSE 11434
 COPY start-ollama.sh /start-ollama.sh
 RUN chmod +x /start-ollama.sh
 
-# Start Ollama with SmolLM2 model
+# Start Ollama with Qwen2.5 model
 CMD ["/start-ollama.sh"]

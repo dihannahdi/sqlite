@@ -1,13 +1,13 @@
 # Nahdlatul Ulama AI: Comprehensive Development Plan
 **Project**: AI-Powered Islamic Jurisprudence System with NU Methodology  
 **Co-Founder Development Roadmap**  
-**Technologies**: SmolLM2, Ollama, Railway, Knowledge Graphs, RAG  
+**Technologies**: TinyLlama, Ollama, Railway, Knowledge Graphs, RAG  
 
 ---
 
 ## 🎯 Project Vision
 
-Create a **completely free** and efficient Islamic jurisprudence system that leverages Nahdlatul Ulama's traditional istinbath methodology with the most resource-efficient AI technologies. The system prioritizes Islamic accuracy, scholar verification, and ultra-low-cost deployment on Railway's infrastructure.
+Create a **completely free** and efficient Islamic jurisprudence system that leverages Nahdlatul Ulama's traditional istinbath methodology with the most resource-efficient AI technologies. The system prioritizes Islamic accuracy, scholar verification, and ultra-low-cost deployment on Railway's infrastructure using TinyLlama-1.1B-Chat model.
 
 ## 🏗️ Ultra-Efficient Architecture Overview
 
@@ -17,7 +17,7 @@ Create a **completely free** and efficient Islamic jurisprudence system that lev
 ├─────────────────────────────────────────────────────────────┤
 │               Mushoheh Verification Layer                  │
 ├─────────────────────────────────────────────────────────────┤
-│          Islamic RAG + SmolLM2-360M (Ollama/Local)         │
+│          Islamic RAG + TinyLlama-1.1B (Ollama/Local)       │
 ├─────────────────────────────────────────────────────────────┤
 │              NU Methodology Engine                         │
 ├─────────────────────────────────────────────────────────────┤
@@ -29,23 +29,23 @@ Create a **completely free** and efficient Islamic jurisprudence system that lev
 ```
 
 **Key Architecture - Pure Railway Stack:**
-- **100% Free LLM**: SmolLM2-360M-Instruct (374K downloads, production-ready)
-- **Railway-Perfect**: 2-4GB RAM requirement vs BitNet's GPU needs
+- **100% Free LLM**: TinyLlama-1.1B-Chat (13M downloads, production-ready)
+- **Railway-Perfect**: 1-2GB RAM requirement vs BitNet's GPU needs
 - **CPU-Only**: No expensive GPU infrastructure required
 - **Ollama Deployment**: Containerized model serving on Railway
 - **Pure Railway**: PostgreSQL + Ollama service, no external dependencies
-- **Cost**: ~$20/month total (Railway only)
+- **Cost**: ~$15/month total (Railway only)
 
 ---
 
-## 📋 Phase 1: Railway + Ollama + SmolLM2 Setup (Months 1-2)
+## 📋 Phase 1: Railway + Ollama + TinyLlama Setup (Months 1-2)
 
 ### 1.1 Pure Railway Setup
 **Timeline**: 1 week
 
 **Objectives**:
 - Deploy Railway with basic PostgreSQL
-- Set up Ollama container with SmolLM2-360M-Instruct
+- Set up Ollama container with TinyLlama-1.1B-Chat
 - Pure Railway architecture with no external dependencies
 
 **Railway-Only Implementation**:
@@ -58,23 +58,23 @@ railway init nahdlatul-ulama-ai
 # PostgreSQL Database Service
 railway add -d postgres
 
-# Ollama Service for SmolLM2
+# Ollama Service for TinyLlama
 railway add
 # Select 'Empty Service' 
-# Name: ollama-smollm-service
+# Name: ollama-tinyllama-service
 ```
 
-**SmolLM2 Deployment on Railway**:
+**TinyLlama Deployment on Railway**:
 ```dockerfile
-# Dockerfile for Ollama + SmolLM2 on Railway
+# Dockerfile for Ollama + TinyLlama on Railway
 FROM ollama/ollama:latest
 
 # Railway environment
 ENV PORT=8000
 ENV OLLAMA_HOST=0.0.0.0:$PORT
 
-# Download SmolLM2-360M-Instruct (ultra-lightweight)
-RUN ollama pull huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct
+# Download TinyLlama-1.1B-Chat (ultra-lightweight)
+RUN ollama pull tinyllama
 
 # Start Ollama server
 CMD ["ollama", "serve"]
@@ -90,11 +90,11 @@ from typing import List, Dict
 class RailwayIslamicRAG:
     def __init__(self):
         # Railway environment variables only
-        self.ollama_url = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-smollm-service:8000')
+        self.ollama_url = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-tinyllama-service:8000')
         self.database_url = os.getenv('DATABASE_URL')
         
     def generate_islamic_response(self, query: str, context: str) -> Dict:
-        """Generate response using Railway-hosted SmolLM2 only."""
+        """Generate response using Railway-hosted TinyLlama only."""
         
         prompt = f"""بسم الله الرحمن الرحيم
 
@@ -107,7 +107,7 @@ Answer:"""
         
         # Call Railway Ollama service
         response = requests.post(f"{self.ollama_url}/api/generate", json={
-            "model": "SmolLM2-360M-Instruct",
+            "model": "tinyllama",
             "prompt": prompt,
             "stream": False,
             "options": {
@@ -120,7 +120,7 @@ Answer:"""
         if response.status_code == 200:
             return {
                 'answer': response.json()['response'],
-                'model_used': 'SmolLM2-360M-Instruct (Railway)',
+                'model_used': 'TinyLlama-1.1B-Chat (Railway)',
                 'cost': 'Railway hosting only',
                 'verification_needed': True
             }
@@ -133,7 +133,7 @@ Answer:"""
 
 **Pure Railway Database Schema**:
 ```sql
--- Optimized for Railway PostgreSQL with SmolLM2 integration
+-- Optimized for Railway PostgreSQL with TinyLlama integration
 CREATE TABLE islamic_texts (
     id SERIAL PRIMARY KEY,
     source_type VARCHAR(20) NOT NULL, -- quran, hadith, kitab
@@ -150,13 +150,13 @@ CREATE INDEX idx_source_type ON islamic_texts(source_type);
 CREATE INDEX idx_madhab ON islamic_texts(madhab);
 CREATE INDEX idx_content_search ON islamic_texts USING gin(to_tsvector('arabic', content));
 
--- Store SmolLM2 responses for caching
+-- Store TinyLlama responses for caching
 CREATE TABLE ai_responses (
     id SERIAL PRIMARY KEY,
     query_hash VARCHAR(64) UNIQUE,
     question TEXT NOT NULL,
     answer TEXT NOT NULL,
-    model_used VARCHAR(50) DEFAULT 'SmolLM2-360M',
+    model_used VARCHAR(50) DEFAULT 'TinyLlama-1.1B',
     confidence DECIMAL(3,2),
     verified BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -165,7 +165,7 @@ CREATE TABLE ai_responses (
 
 **Deliverables**:
 - [ ] Railway PostgreSQL database deployed and configured
-- [ ] Railway Ollama service with SmolLM2-360M running
+- [ ] Railway Ollama service with TinyLlama-1.1B running
 - [ ] Automated GitHub SQL chunk ingestion (Railway-optimized)
 - [ ] Railway environment variables configured
 - [ ] Pure Railway microservices architecture
@@ -173,27 +173,27 @@ CREATE TABLE ai_responses (
 
 ---
 
-## 📋 Phase 2: SmolLM2-Powered Islamic RAG (Months 2-3)
+## 📋 Phase 2: TinyLlama-Powered Islamic RAG (Months 2-3)
 
 ### 2.1 Ultra-Lightweight Text Processing
 **Timeline**: 2 weeks
 
-**SmolLM2-Optimized Processing**:
+**TinyLlama-Optimized Processing**:
 ```python
-# islamic_smollm_processor.py - Optimized for 360M parameter model
+# islamic_tinyllama_processor.py - Optimized for 1.1B parameter model
 import ollama
 from sentence_transformers import SentenceTransformer
 import chromadb
 import arabic_reshaper
 from bidi.algorithm import get_display
 
-class SmolLMIslamicProcessor:
+class TinyLlamaIslamicProcessor:
     def __init__(self):
         # Use lightweight embedding model (runs on Railway)
         self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')  # 22MB model
         
         # Railway Ollama client
-        self.ollama_url = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-smollm-service:8000')
+        self.ollama_url = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-tinyllama-service:8000')
         
         # Railway PostgreSQL for vector storage
         self.database_url = os.getenv('DATABASE_URL')
@@ -205,8 +205,8 @@ class SmolLMIslamicProcessor:
         self.quran_collection = self.vector_db.get_or_create_collection("quran_verses")
         self.hadith_collection = self.vector_db.get_or_create_collection("hadith_texts")
     
-    def process_with_smollm2(self, query: str, islamic_context: str) -> str:
-        """Process Islamic query with Railway-hosted SmolLM2-360M-Instruct."""
+    def process_with_tinyllama(self, query: str, islamic_context: str) -> str:
+        """Process Islamic query with Railway-hosted TinyLlama-1.1B-Chat."""
         
         prompt = f"""بسم الله الرحمن الرحيم
 
@@ -221,9 +221,9 @@ Please provide a brief answer based on NU principles: Tawassuth (moderation), Ta
 
 Answer:"""
         
-        # Use SmolLM2 via Railway Ollama service
+        # Use TinyLlama via Railway Ollama service
         response = requests.post(f"{self.ollama_url}/api/generate", json={
-            "model": "SmolLM2-360M-Instruct",
+            "model": "tinyllama",
             "prompt": prompt,
             "stream": False,
             "options": {
@@ -282,22 +282,22 @@ class IslamicContext:
 
 class RailwayIslamicRAG:
     def __init__(self):
-        self.smollm_processor = SmolLMIslamicProcessor()
+        self.tinyllama_processor = TinyLlamaIslamicProcessor()
         
         # Railway environment variables only
-        self.ollama_url = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-smollm-service:8000')
+        self.ollama_url = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-tinyllama-service:8000')
         self.database_url = os.getenv('DATABASE_URL')
     
     def retrieve_islamic_context(self, query: str, limit: int = 3) -> List[IslamicContext]:
         """Retrieve relevant Islamic texts using Railway resources only."""
         
         # Generate query embeddings (runs on Railway)
-        query_embeddings = self.smollm_processor.embedding_model.encode(query).tolist()
+        query_embeddings = self.tinyllama_processor.embedding_model.encode(query).tolist()
         
         contexts = []
         
         # Search Quran verses (Railway ChromaDB)
-        quran_results = self.smollm_processor.quran_collection.query(
+        quran_results = self.tinyllama_processor.quran_collection.query(
             query_embeddings=[query_embeddings],
             n_results=2
         )
@@ -311,7 +311,7 @@ class RailwayIslamicRAG:
             ))
         
         # Search Hadith (Railway ChromaDB)
-        hadith_results = self.smollm_processor.hadith_collection.query(
+        hadith_results = self.tinyllama_processor.hadith_collection.query(
             query_embeddings=[query_embeddings],
             n_results=1
         )
@@ -339,12 +339,12 @@ class RailwayIslamicRAG:
         # Step 1: Retrieve context (Railway ChromaDB)
         contexts = self.retrieve_islamic_context(query)
         
-        # Step 2: Build context for SmolLM2
+        # Step 2: Build context for TinyLlama
         context_text = "\n".join([f"- {ctx.text[:200]}..." for ctx in contexts])
         
-        # Step 3: Generate with SmolLM2 (Railway Ollama)
+        # Step 3: Generate with TinyLlama (Railway Ollama)
         response = requests.post(f"{self.ollama_url}/api/generate", json={
-            "model": "SmolLM2-360M-Instruct",
+            "model": "tinyllama",
             "prompt": f"""بسم الله الرحمن الرحيم
 
 Islamic question: {query}
@@ -365,7 +365,7 @@ Answer:""",
             result = {
                 'answer': response.json()['response'],
                 'sources': contexts,
-                'model_used': 'SmolLM2-360M-Instruct (Railway)',
+                'model_used': 'TinyLlama-1.1B-Chat (Railway)',
                 'cost': 'Railway hosting only',
                 'verification_needed': True
             }
@@ -1118,7 +1118,7 @@ class ContinuousLearning:
 - **Total Monthly Cost**: **$20-30/month**
 
 ### Development Costs (One-time) - Simplified
-- **SmolLM2 Integration**: $0 (open source)
+- **TinyLlama Integration**: $0 (open source)
 - **Ollama Setup**: $0 (open source)
 - **Islamic RAG Development**: $300 (Railway-optimized)
 - **NU Methodology Engine**: $400 (rule-based system)
@@ -1155,30 +1155,30 @@ class ContinuousLearning:
    railway login
    railway init nahdlatul-ulama-ai
    railway add -d postgres  # PostgreSQL service
-   railway add              # Ollama service for SmolLM2
+   railway add              # Ollama service for TinyLlama
    railway add              # Web service for API
    ```
 
-2. **SmolLM2 Testing**:
+2. **TinyLlama Testing**:
    ```bash
    # Test locally first
-   ollama pull huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct
-   ollama run SmolLM2-360M-Instruct "Test Islamic knowledge"
+   ollama pull tinyllama
+   ollama run tinyllama "Test Islamic knowledge"
    ```
 
 3. **Railway Services Setup**:
    - Configure service-to-service communication
    - Set up environment variables
-   - Deploy Ollama container with SmolLM2
+   - Deploy Ollama container with TinyLlama
 
 ### Week 1 Goals:
 - Railway PostgreSQL deployed ($20/month Pro plan)
-- SmolLM2-360M running on Railway via Ollama
+- TinyLlama-1.1B running on Railway via Ollama
 - Basic Islamic RAG system prototype (Railway-only)
 - Service-to-service communication working
 
 ### Month 1 Objectives:
-- Full SmolLM2 deployment on Railway
+- Full TinyLlama deployment on Railway
 - GitHub SQL chunks migration complete
 - Basic NU methodology engine operational
 - **Total cost: $20/month (Railway only)**
@@ -1191,16 +1191,16 @@ class ContinuousLearning:
 
 ---
 
-## 📊 Technical Advantages of SmolLM2 vs BitNet
+## 📊 Technical Advantages of TinyLlama vs BitNet
 
-### SmolLM2-360M Benefits:
-✅ **Proven**: 374K downloads, production-ready  
-✅ **Efficient**: 360M parameters vs BitNet's billions  
+### TinyLlama-1.1B Benefits:
+✅ **Proven**: 13M downloads, production-ready  
+✅ **Efficient**: 1.1B parameters vs BitNet's billions  
 ✅ **Free**: Apache-2.0 license, no costs  
-✅ **Railway-Perfect**: 2-4GB RAM vs GPU requirements  
+✅ **Railway-Perfect**: 1-2GB RAM vs GPU requirements  
 ✅ **CPU-Only**: No expensive GPU infrastructure  
 ✅ **Fast**: Local inference, no API latency  
-✅ **Transformers.js**: Can run in browser  
+✅ **Ollama-Native**: Direct compatibility with Ollama  
 ✅ **Fine-tunable**: Can be customized for Islamic content  
 
 ### BitNet Problems Solved:
@@ -1218,7 +1218,7 @@ class ContinuousLearning:
 ✅ **Scalable**: Railway's infrastructure vs custom scaling  
 ✅ **Cost-Effective**: $15/month vs $700/month  
 
-**Conclusion**: SmolLM2 + Ollama + Railway is the **objectively superior** solution for our Islamic AI system - more efficient, cheaper, and Railway-optimized while maintaining all Islamic accuracy requirements.
+**Conclusion**: TinyLlama + Ollama + Railway is the **objectively superior** solution for our Islamic AI system - more efficient, cheaper, and Railway-optimized while maintaining all Islamic accuracy requirements.
 
 ---
 
@@ -1233,4 +1233,4 @@ class ContinuousLearning:
 
 ---
 
-*This ultra-efficient development plan represents the optimal solution for creating a world-class Islamic AI system using proven, free technologies optimized for Railway deployment. The SmolLM2 approach delivers superior results at a fraction of the cost while maintaining the highest standards of Islamic scholarly accuracy.*
+*This ultra-efficient development plan represents the optimal solution for creating a world-class Islamic AI system using proven, free technologies optimized for Railway deployment. The TinyLlama approach delivers superior results at a fraction of the cost while maintaining the highest standards of Islamic scholarly accuracy.*

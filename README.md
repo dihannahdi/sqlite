@@ -2,20 +2,20 @@
 
 بسم الله الرحمن الرحيم
 
-An ultra-efficient Islamic AI system combining traditional Nahdlatul Ulama (NU) jurisprudence methodology with cost-effective Railway deployment using SmolLM2-360M.
+An ultra-efficient Islamic AI system combining traditional Nahdlatul Ulama (NU) jurisprudence methodology with cost-effective Railway deployment using Qwen2.5-1.5B-Instruct.
 
 ## 🎯 Project Overview
 
 This system implements:
-- **SmolLM2-360M-Instruct**: 360M parameter model, Railway-hosted via Ollama
-- **NU Methodology**: Ahlussunnah wal Jama'ah (Aswaja) principles
-- **Railway Deployment**: PostgreSQL + Ollama service (~$20/month)
+- **Qwen2.5-1.5B-Instruct**: Free Apache 2.0 license model, Railway-hosted via Ollama
+- **NU Methodology**: Ahlussunnah wal Jama'ah (Aswaja) principles  
+- **Railway Deployment**: PostgreSQL + Ollama service (~$8/month)
 - **Mushoheh Verification**: Scholar validation layer
 
 ## 🏗️ Architecture
 
 ```
-User Query → Web Interface → SmolLM2 (Ollama) → NU Methodology Engine → Mushoheh Verification → Response
+User Query → Web Interface → Qwen2.5 (Ollama) → NU Methodology Engine → Mushoheh Verification → Response
                     ↓
          Railway PostgreSQL (Islamic Texts)
                     ↓
@@ -43,7 +43,7 @@ railway init
 
 # Add services
 railway add -d postgres
-railway add -s ollama-smollm-service
+railway add -s ollama-qwen25-service
 
 # Deploy
 railway up
@@ -81,10 +81,11 @@ Once deployed, Railway will provide a URL. Open it in your browser to access the
 - `PORT`: Web service port (default: 8000)
 
 ### Model Configuration
-- **Model**: SmolLM2-360M-Instruct
+- **Model**: Qwen2.5-1.5B-Instruct (Apache 2.0 License)
+- **Parameters**: 1.5B (optimized for Railway)
 - **Temperature**: 0.3 (balanced responses)
-- **Context Window**: 1024 tokens
-- **Cost**: ~$20/month total Railway hosting
+- **Context Window**: 2048 tokens
+- **Cost**: ~$8/month total Railway hosting
 
 ## 📁 Project Structure
 

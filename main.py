@@ -15,7 +15,7 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 
 # Configuration
-OLLAMA_URL = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-smollm-service:11434')
+OLLAMA_URL = os.getenv('OLLAMA_SERVICE_URL', 'http://ollama-qwen25-service:11434')
 DATABASE_URL = os.getenv('DATABASE_URL')
 
 # Initialize FastAPI app
@@ -60,9 +60,9 @@ class NUIslamicAI:
         # Retrieve relevant Islamic texts
         relevant_texts = self.retrieve_relevant_texts(query.question)
 
-        # Generate response using SmolLM2
+        # Generate response using Qwen2.5
         prompt = self.create_islamic_prompt(query.question, relevant_texts)
-        response = self.call_smollm(prompt)
+        response = self.call_qwen25(prompt)
 
         # Apply NU methodology verification
         verified_response = self.apply_nu_methodology(response, relevant_texts)
@@ -96,27 +96,27 @@ Tawazun (balance), and I'tidal (justice).
 
 Answer:"""
 
-    def call_smollm(self, prompt: str) -> str:
-        """Call SmolLM2 via Railway Ollama service"""
+    def call_qwen25(self, prompt: str) -> str:
+        """Call Qwen2.5-1.5B via Railway Ollama service"""
         try:
             response = requests.post(f"{self.ollama_url}/api/generate", json={
-                "model": "SmolLM2-360M-Instruct",
+                "model": "qwen2.5:1.5b",
                 "prompt": prompt,
                 "stream": False,
                 "options": {
                     "temperature": 0.3,
                     "num_predict": 300,
-                    "num_ctx": 1024
+                    "num_ctx": 2048
                 }
             }, timeout=30)
 
             if response.status_code == 200:
                 return response.json()['response']
             else:
-                return "Error: Unable to generate response from SmolLM2"
+                return "Error: Unable to generate response from Qwen2.5"
 
         except Exception as e:
-            return f"Error calling SmolLM2: {str(e)}"
+            return f"Error calling Qwen2.5: {str(e)}"
 
     def apply_nu_methodology(self, response: str, sources: list) -> str:
         """Apply NU methodology verification"""
@@ -134,7 +134,7 @@ async def root():
         "message": "Nahdlatul Ulama AI - Islamic Jurisprudence System",
         "status": "active",
         "methodology": "NU Traditional (Aswaja)",
-        "model": "SmolLM2-360M-Instruct"
+        "model": "Qwen2.5-1.5B-Instruct (Apache 2.0 License)"
     }
 
 @app.post("/api/islamic-query", response_model=IslamicResponse)
