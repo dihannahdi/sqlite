@@ -8,9 +8,9 @@ ollama serve &
 echo "Waiting for Ollama to start..."
 sleep 10
 
-# Pull SmolLM2-360M-Instruct model
-echo "Pulling SmolLM2-360M-Instruct model..."
-ollama pull SmolLM2-360M-Instruct
+# Pull SmolLM2 360M model (correct model name in Ollama)
+echo "Pulling SmolLM2 360M model..."
+ollama pull smollm2:360m
 
 echo "SmolLM2 model ready!"
 
