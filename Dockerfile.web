@@ -15,9 +15,8 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements first for better Docker layer caching
 COPY requirements.txt .
 
-# Install Python dependencies efficiently with cache mount
-RUN --mount=type=cache,id=s/79a2afcf-5949-4c2c-9c12-1266d0230dde-pip,target=/root/.cache/pip \
-    pip install -r requirements.txt
+# Install Python dependencies efficiently
+RUN pip install -r requirements.txt
 
 # Production stage - minimal and fast
 FROM python:3.11-slim AS production
