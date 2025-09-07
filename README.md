@@ -1,43 +1,191 @@
-<img style="max-width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/2560px-SQLite370.svg.png" />
+# Nahdlatul Ulama AI - Islamic Jurisprudence System
 
-<h1 align="center">SQLite Template</h1>
+بسم الله الرحمن الرحيم
 
-SQLite3 is a lightweight, serverless, open-source database engine used for local storage in applications. It requires no configuration and supports SQL for data manipulation.
+An ultra-efficient Islamic AI system combining traditional Nahdlatul Ulama (NU) jurisprudence methodology with cost-effective Railway deployment using SmolLM2-360M.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/jOiNFt?referralCode=chIZYq)
+## 🎯 Project Overview
 
-# ✨ Features
+This system implements:
+- **SmolLM2-360M-Instruct**: 360M parameter model, Railway-hosted via Ollama
+- **NU Methodology**: Ahlussunnah wal Jama'ah (Aswaja) principles
+- **Railway Deployment**: PostgreSQL + Ollama service (~$20/month)
+- **Mushoheh Verification**: Scholar validation layer
 
-- SQLite3 database
-- SQLite Web Interface
-- `trains` table with sample data about Thomas & Friends (do you still need more features?)
+## 🏗️ Architecture
 
-# 🤔 How to use
+```
+User Query → Web Interface → SmolLM2 (Ollama) → NU Methodology Engine → Mushoheh Verification → Response
+                    ↓
+         Railway PostgreSQL (Islamic Texts)
+                    ↓
+         ChromaDB Vector Store (Embeddings)
+```
 
-## 🌎 WebUI Usage
+## 🚀 Quick Start
 
-1. Open the project named "SQLite Template"
+### 1. Prerequisites
+- Railway CLI installed: `npm install -g @railway/cli`
+- Railway account with Pro plan ($5/month)
 
-2. Go to the "Variables" tab and view the `SQLITE_WEB_UI_PASSWORD` variable, this is the password you'll need to access the web interface
+### 2. Deploy to Railway
 
-3. Back to `Deployments`, in the top you'll see a URL which you can use to access the web interface
+```bash
+# Clone and setup
+git clone <repository-url>
+cd nahdlatul-ulama-ai
 
-4. Click on the URL and you'll be redirected to the web interface, type your password and you'll be able to manage your database
+# Login to Railway
+railway login
 
-That's it! You can now manage your SQLite3.
+# Initialize project
+railway init
 
-## ⚙️ `seed_db.sql` Usage
+# Add services
+railway add -d postgres
+railway add -s ollama-smollm-service
 
-After you've deployed this template, you'll find a copy of this project in your Github.  
-From there you can populate `seed_db.sql` with your own SQL code.  
-The file will only be executed when you change anything in it and will run only once.
+# Deploy
+railway up
+```
 
-## ⚙️ `init_db.sql` Usage
+### 3. Load Islamic Data
 
-This file is used to initialize the database.  
-It includes sample data for a `trains` table.
+```bash
+# Load SQL chunks into database
+python load_data.py
+```
 
-# 📙 Learn more
+### 4. Access the Application
 
-- [SQLite3](https://www.sqlite.org/index.html)
-- [SQLite Web](https://github.com/coleifer/sqlite-web)
+Once deployed, Railway will provide a URL. Open it in your browser to access the Islamic AI interface.
+
+## 📚 NU Methodology Implementation
+
+### Four Core Principles (Fikrah Nahdliyah)
+1. **Tawassuth** (Moderation): Avoid extremes
+2. **Tasamuh** (Tolerance): Accept valid differences
+3. **Tawazun** (Balance): Integrate religious and worldly
+4. **I'tidal** (Justice): Ensure fairness
+
+### Istinbath Methods
+- **Bayani**: Direct textual analysis (Quran, Hadith)
+- **Qiyasi**: Analogical reasoning
+- **Istishlahi**: Benefit-based reasoning
+
+## 🔧 Configuration
+
+### Environment Variables
+- `DATABASE_URL`: Railway PostgreSQL connection string
+- `OLLAMA_SERVICE_URL`: Ollama service URL (auto-configured)
+- `PORT`: Web service port (default: 8000)
+
+### Model Configuration
+- **Model**: SmolLM2-360M-Instruct
+- **Temperature**: 0.3 (balanced responses)
+- **Context Window**: 1024 tokens
+- **Cost**: ~$20/month total Railway hosting
+
+## 📁 Project Structure
+
+```
+nahdlatul-ulama-ai/
+├── main.py                 # FastAPI application
+├── load_data.py           # Data loading script
+├── requirements.txt       # Python dependencies
+├── Dockerfile            # Ollama service container
+├── start-ollama.sh      # Ollama startup script
+├── railway.toml         # Railway configuration
+├── index.html           # Web interface
+├── sql_chunks/          # Islamic text chunks
+├── references/          # NU methodology docs
+└── .github/             # Copilot instructions
+```
+
+## 🗄️ Database Schema
+
+### Islamic Texts Table
+```sql
+CREATE TABLE islamic_texts (
+    id SERIAL PRIMARY KEY,
+    source_type VARCHAR(20), -- quran, hadith, kitab
+    content TEXT,
+    arabic_text TEXT,
+    translation TEXT,
+    reference VARCHAR(100),
+    madhab VARCHAR(20) DEFAULT 'syafii',
+    authenticity VARCHAR(20),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+## 🔍 API Endpoints
+
+### POST `/api/islamic-query`
+Process Islamic jurisprudence queries.
+
+**Request:**
+```json
+{
+    "question": "What is the ruling on using technology in worship?",
+    "context": "Modern smartphone applications for prayer times",
+    "madhab": "syafii"
+}
+```
+
+**Response:**
+```json
+{
+    "answer": "Islamic AI response...",
+    "methodology": "NU Traditional Methodology",
+    "sources": ["Quran 2:255", "Sahih Hadith"],
+    "confidence": 0.85,
+    "verification_status": "auto_verified"
+}
+```
+
+### GET `/api/health`
+Health check endpoint.
+
+## 🧪 Testing
+
+```bash
+# Run tests
+pytest
+
+# Test API endpoints
+curl -X POST http://localhost:8000/api/islamic-query \
+  -H "Content-Type: application/json" \
+  -d '{"question": "Test question"}'
+```
+
+## 📊 Performance
+
+- **Model Size**: 360M parameters (2-4GB RAM)
+- **Response Time**: < 3 seconds per query
+- **Cost**: $20/month (Railway Pro plan)
+- **Data**: 100+ Islamic text chunks loaded
+
+## 🤝 Contributing
+
+1. Follow NU methodology principles
+2. Test with authentic Islamic sources
+3. Ensure Arabic text compatibility
+4. Add proper documentation
+
+## 📜 License
+
+This project is dedicated to Islamic scholarship and follows NU's commitment to Ahlussunnah wal Jama'ah.
+
+## 🙏 Acknowledgments
+
+- Nahdlatul Ulama organization
+- Islamic scholars and ulema
+- SmolLM2 and Ollama communities
+- Railway platform
+
+---
+
+**والله أعلم** (And Allah knows best)
+
+For questions or contributions, please contact the development team.

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahdlatul Ulama AI - Islamic Jurisprudence System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .card h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #555;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            width: 100%;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .response {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .response h3 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .response-content {
+            line-height: 1.6;
+            color: #555;
+            white-space: pre-wrap;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .methodology-badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .sources {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: #e9ecef;
+            border-radius: 8px;
+        }
+
+        .sources h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .source-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .source-item:last-child {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                padding: 1rem;
+            }
+
+            .header {
+                padding: 1rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>بسم الله الرحمن الرحيم</h1>
+        <p>Nahdlatul Ulama AI - Islamic Jurisprudence System</p>
+        <p>Following Ahlussunnah wal Jama'ah (Aswaja) Methodology</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Islamic Query</h2>
+            <form id="islamicForm">
+                <div class="form-group">
+                    <label for="question">Your Islamic Question:</label>
+                    <textarea id="question" name="question" placeholder="Ask your question about Islamic jurisprudence, worship, commerce, family matters, or contemporary issues..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="context">Additional Context (Optional):</label>
+                    <textarea id="context" name="context" placeholder="Provide any additional context or specific situation..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="madhab">Preferred Madhab:</label>
+                    <select id="madhab" name="madhab">
+                        <option value="syafii">Syafi'i (NU Primary)</option>
+                        <option value="hanafi">Hanafi</option>
+                        <option value="maliki">Maliki</option>
+                        <option value="hanbali">Hanbali</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn" id="submitBtn">
+                    <span id="btnText">Ask Islamic AI</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Response</h2>
+            <div id="responseArea">
+                <p style="text-align: center; color: #666; margin: 2rem 0;">
+                    Your Islamic AI response will appear here...<br>
+                    <small>Following NU Principles: Tawassuth • Tasamuh • Tawazun • I'tidal</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('islamicForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+            const originalText = btnText.textContent;
+
+            // Show loading state
+            submitBtn.disabled = true;
+            btnText.innerHTML = '<div class="loading"></div>Processing...';
+
+            const formData = new FormData(e.target);
+            const queryData = {
+                question: formData.get('question'),
+                context: formData.get('context') || '',
+                madhab: formData.get('madhab')
+            };
+
+            try {
+                const response = await fetch('/api/islamic-query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(queryData)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                displayResponse(result);
+
+            } catch (error) {
+                console.error('Error:', error);
+                displayError('Failed to get response. Please try again.');
+            } finally {
+                // Reset button state
+                submitBtn.disabled = false;
+                btnText.textContent = originalText;
+            }
+        });
+
+        function displayResponse(result) {
+            const responseArea = document.getElementById('responseArea');
+
+            let sourcesHtml = '';
+            if (result.sources && result.sources.length > 0) {
+                sourcesHtml = `
+                    <div class="sources">
+                        <h4>📚 Sources Referenced:</h4>
+                        ${result.sources.map(source => `<div class="source-item">${source}</div>`).join('')}
+                    </div>
+                `;
+            }
+
+            responseArea.innerHTML = `
+                <div class="response">
+                    <div class="methodology-badge">✅ ${result.methodology}</div>
+                    <h3>Islamic AI Response:</h3>
+                    <div class="response-content">${result.answer}</div>
+                    ${sourcesHtml}
+                    <div style="margin-top: 1rem; font-size: 0.9rem; color: #666;">
+                        <strong>Verification Status:</strong> ${result.verification_status}<br>
+                        <strong>Confidence:</strong> ${(result.confidence * 100).toFixed(1)}%
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayError(message) {
+            const responseArea = document.getElementById('responseArea');
+            responseArea.innerHTML = `
+                <div class="response" style="border-left-color: #dc3545;">
+                    <h3>⚠️ Error</h3>
+                    <div class="response-content">${message}</div>
+                </div>
+            `;
+        }
+
+        // Load initial health check
+        window.addEventListener('load', async function() {
+            try {
+                const response = await fetch('/api/health');
+                if (response.ok) {
+                    console.log('✅ Nahdlatul Ulama AI is running');
+                }
+            } catch (error) {
+                console.log('⚠️ Health check failed');
+            }
+        });
+    </script>
+</body>
+</html>

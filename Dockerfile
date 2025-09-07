@@ -1,13 +1,16 @@
-FROM python:3.7-alpine3.17
+# Dockerfile for Ollama SmolLM2 Service on Railway
+FROM ollama/ollama:latest
 
-WORKDIR /app
+# Set environment variables
+ENV OLLAMA_HOST=0.0.0.0
+ENV OLLAMA_KEEP_ALIVE=-1
 
-RUN pip install gevent sqlite_web
-RUN apk add --no-cache sqlite
+# Expose port
+EXPOSE 11434
 
-COPY entrypoint.sh .
-COPY wsgi.py .
-COPY init_db.sql .
-COPY seed_db.sql .
+# Copy startup script
+COPY start-ollama.sh /start-ollama.sh
+RUN chmod +x /start-ollama.sh
 
-ENTRYPOINT [ "./entrypoint.sh" ]
+# Start Ollama with SmolLM2 model
+CMD ["/start-ollama.sh"]
