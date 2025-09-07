@@ -12,7 +12,7 @@ sleep 10
 echo "Pulling SmolLM2 360M model..."
 ollama pull smollm2:360m
 
-echo "SmolLM2 model ready!"
+echo "SmolLM2 360M model ready!"
 
 # Keep container running
 wait
