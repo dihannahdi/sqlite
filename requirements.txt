@@ -1,5 +1,5 @@
 # Nahdlatul Ulama AI - Requirements
-# Railway-optimized lightweight dependencies
+# Railway-optimized with performance packages
 
 # Web Framework
 fastapi==0.104.1
@@ -12,8 +12,19 @@ chromadb==0.4.18
 # Database
 psycopg2-binary==2.9.9
 
-# HTTP Client
+# HTTP Client & Performance
 requests==2.31.0
+ghapi==1.0.4
+aiohttp==3.9.1
+asyncio-pool==0.6.0
+
+# Parallel Processing & Optimization
+concurrent-futures==3.1.1
+multiprocessing-logging==0.3.4
+tqdm==4.66.1
+
+# Memory Management
+psutil==5.9.6
 
 # Utilities
 python-multipart==0.0.6

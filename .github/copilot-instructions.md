@@ -640,6 +640,26 @@ Before submitting any code related to Islamic content:
 - [ ] **Documentation**: Document Islamic concepts clearly
 - [ ] **Security**: Protect sacred texts appropriately
 
+## 🚫 CRITICAL: File Management Guidelines
+
+**JANGAN KEBIASAAN BIKIN FILE BARU HIH! JUST SEE WHAT'S ACTUALLY EXIST AND REFINE. DON'T ALWAYS NEW NEW NEW!**
+
+### File Management Rules:
+1. **ALWAYS check existing files first** - Use `read_file`, `list_dir`, `file_search` before creating anything
+2. **REFINE, don't replace** - Use `replace_string_in_file` to update existing code
+3. **Only create new files when absolutely necessary** - When existing files can't accommodate the changes
+4. **Check imports and dependencies** - Ensure new code works with existing structure
+5. **Respect the established architecture** - Don't reinvent what already exists
+
+### Before Creating Any New File:
+- [ ] Did I check what files already exist?
+- [ ] Can I modify an existing file instead?
+- [ ] Am I duplicating functionality that's already there?
+- [ ] Did I read the existing code structure?
+- [ ] Is this new file absolutely necessary?
+
+**Remember: REFINEMENT > RECREATION**
+
 ## 🤝 Collaboration Guidelines
 
 ### Working with Islamic Scholars

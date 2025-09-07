@@ -9,6 +9,7 @@ import glob
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import logging
+import re
 from typing import List, Dict, Any
 
 # Configure logging
@@ -73,6 +74,9 @@ class IslamicDataLoader:
         with open(sql_file, 'r', encoding='utf-8') as f:
             sql_content = f.read()
 
+        # Convert SQLite to PostgreSQL
+        sql_content = self.convert_sqlite_to_postgresql(sql_content)
+
         # Split SQL content into individual statements
         statements = self.split_sql_statements(sql_content)
 
@@ -83,6 +87,18 @@ class IslamicDataLoader:
                         cursor.execute(statement)
                     except Exception as e:
                         logger.warning(f"Skipping statement: {str(e)}")
+
+    def convert_sqlite_to_postgresql(self, sql_content: str) -> str:
+        """Convert SQLite SQL to PostgreSQL compatible SQL"""
+        
+        # Replace square brackets with double quotes for column names
+        sql_content = re.sub(r'\[([^\]]+)\]', r'"\1"', sql_content)
+        
+        # Handle SQLite specific syntax
+        sql_content = sql_content.replace('TEXT NOT NULL', 'TEXT')
+        sql_content = sql_content.replace('IF NOT EXISTS', '')
+        
+        return sql_content
 
     def split_sql_statements(self, sql: str) -> List[str]:
         """Split SQL content into individual statements"""

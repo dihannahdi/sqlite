@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-09-07T21:25:14.133142",
+  "database_connection": "SUCCESS",
+  "tables_found": 8,
+  "total_records": 1811,
+  "table_breakdown": {
+    "authentic_hadiths": 42,
+    "b10000": 328,
+    "b10001": 304,
+    "b10002": 465,
+    "b10003": 424,
+    "b10004": 131,
+    "b10006": 117,
+    "islamic_texts": 0
+  },
+  "arabic_content_samples": [
+    {
+      "text_sample": "<span data-type=\"title\" id=toc-1>تقريظ الشيخ العلامة الجليل صالح بن إبراهيم البليهي</span>\nبسم الله ...",
+      "has_arabic": true,
+      "narrator": "راوي معتبر",
+      "source": "b1"
+    },
+    {
+      "text_sample": "من يُشِيد القبور بالقباب والحرير والرّخام، فرضي الله عنهم كما حفظوا لنا دين الإسلام، ورضي الله عمّن ...",
+      "has_arabic": true,
+      "narrator": "راوي معتبر",
+      "source": "b1"
+    },
+    {
+      "text_sample": "وجد بأول النسخ ما نصه (١) :\nبسم الله الرحمن الرحيم وبه نستعين (٢) الحمد لله الذي نصر الدين، بالحجة و...",
+      "has_arabic": true,
+      "narrator": "راوي معتبر",
+      "source": "b1"
+    },
+    {
+      "text_sample": "<span data-type=\"title\" id=toc-5>سبب تأليف هذه الرسالة وصفتها</span>\nلما كانت السنة الحادية عشرة بعد...",
+      "has_arabic": true,
+      "narrator": "راوي معتبر",
+      "source": "b1"
+    },
+    {
+      "text_sample": "بسم الله الرحمن الرحيم\n<span data-type=\"title\" id=toc-6>المسألة الأولى</span>\n\"قالوا: ما قولكم فيمن ...",
+      "has_arabic": true,
+      "narrator": "راوي معتبر",
+      "source": "b1"
+    }
+  ],
+  "data_quality_issues": [
+    "WARNING: Empty tables found: ['islamic_texts']"
+  ]
+}
