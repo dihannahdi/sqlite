@@ -1,7 +1,7 @@
 [build]
 builder = "dockerfile"
 dockerfilePath = "Dockerfile.web"
-watchPatterns = ["**"]
+watchPatterns = ["main.py", "railway_rag.py", "requirements.txt"]
 
 [deploy]
 startCommand = "python main.py"
@@ -9,3 +9,7 @@ healthcheckPath = "/api/health"
 healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 3
+
+# Railway optimization settings
+[build.env]
+DOCKER_BUILDKIT = "1"

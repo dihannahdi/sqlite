@@ -1,32 +1,59 @@
-# Dockerfile for main web application
-FROM python:3.11-slim
+# Multi-stage optimized Dockerfile for Railway deployment
+FROM python:3.11-slim AS dependencies
 
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies efficiently
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
-    && rm -rf /var/lib/apt/lists/*
+    git \
+    --no-install-recommends && \
+    rm -rf /var/lib/apt/lists/*
 
-# Copy requirements first for better caching
+# Copy requirements first for better Docker layer caching
 COPY requirements.txt .
 
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Install Python dependencies with caching
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY . .
+# Production stage - minimal and fast
+FROM python:3.11-slim AS production
+
+# Install only runtime dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    --no-install-recommends && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set working directory
+WORKDIR /app
+
+# Copy installed packages from dependencies stage
+COPY --from=dependencies /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=dependencies /usr/local/bin /usr/local/bin
+
+# Copy only necessary application code (sql_chunks excluded via .dockerignore)
+COPY main.py .
+COPY railway_rag.py .
+COPY railway.toml .
 
 # Create directory for ChromaDB persistence
 RUN mkdir -p /app/chroma_data
 
+# Set environment variables for optimization
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PIP_NO_CACHE_DIR=1
+
 # Expose port
 EXPOSE 8000
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
+# Health check optimized for FastAPI
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
   CMD curl -f http://localhost:8000/api/health || exit 1
 
 # Start the application

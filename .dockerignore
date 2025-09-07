@@ -1,0 +1,35 @@
+# Exclude SQL chunks from Docker build (we'll download them at runtime)
+sql_chunks/
+*.sql
+
+# Exclude other unnecessary files
+.git/
+.github/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Exclude test files
+test_*.py
+*_test.py
+tests/
+
+# Exclude documentation
+*.md
+docs/
+references/
+
+# Exclude temporary files
+*.tmp
+*.temp
+loading_progress.json
+data_integrity_report.json
