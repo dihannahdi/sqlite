@@ -1,7 +1,7 @@
 [build]
 builder = "dockerfile"
 dockerfilePath = "Dockerfile"
-watchPatterns = ["Dockerfile", "start-ollama.sh"]
+watchPatterns = ["**"]
 
 [deploy]
 startCommand = "./start-ollama.sh"
