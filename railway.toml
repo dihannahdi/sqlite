@@ -1,11 +1,10 @@
 [build]
 builder = "dockerfile"
-dockerfilePath = "Dockerfile.web"
-watchPatterns = ["*.py", "requirements.txt"]
+dockerfilePath = "Dockerfile"
+watchPatterns = ["Dockerfile", "start-ollama.sh"]
 
 [deploy]
-startCommand = "python main.py"
-healthcheckPath = "/api/health"
-healthcheckTimeout = 300
+startCommand = "./start-ollama.sh"
+# No healthcheck for Ollama service - it's not a web service
 restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 10
+restartPolicyMaxRetries = 3
